@@ -1,0 +1,19 @@
+.container__component {
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+}
+
+.about-service__banner--position {
+    display: flex;
+    justify-content: center;
+}
+
+.about-service__banner--title {
+    text-align: center;
+}
+
+.about-service__banner--books {
+    height: 300px;
+    width: 300px;
+}
