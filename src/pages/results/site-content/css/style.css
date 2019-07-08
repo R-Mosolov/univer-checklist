@@ -1,0 +1,33 @@
+.results .layout-positioner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.results .banner__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.results .banner__development {
+    height: 300px;
+    width: 300px;
+}
+
+.results p {
+    margin-bottom: 35px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .results .layout-positioner {
+        min-width: 100%;
+        padding: 0 1.5%;
+        width: auto;
+    }
+
+    .results .banner__development {
+        height: 250px;
+        width: 250px;
+    }
+}

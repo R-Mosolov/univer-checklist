@@ -1,12 +1,12 @@
 import React from 'react';
-import './site-content.css';
+import './css/style.css';
 
 const SiteContent = () => {
     return (
-        <div className="container__position">
+        <div className="registration">
             <div className="layout-positioner">
                 <form className="px-4 py-3">
-                    <h1>Регистрация</h1>
+                    <h1 className="mt-4">Регистрация</h1>
                     <div className="form-group">
                         <label htmlFor="last-name">Фамилия</label>
                         <input
@@ -100,7 +100,7 @@ const SiteContent = () => {
                             required
                         />
                     </div>
-                    <div className="form-group">
+                    <div className="form-group remember">
                         <div className="form-check">
                             <input type="checkbox" className="form-check-input" id="dropdownCheck" />
                             <label className="form-check-label" htmlFor="dropdownCheck">
@@ -108,7 +108,7 @@ const SiteContent = () => {
                             </label>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary">Зарегистрироваться</button>
+                    <button type="submit" className="btn btn-primary">Войти</button>
                 </form>
                 <div className="dropdown-divider" />
                 <a className="dropdown-item" href="#">Забыли пароль?</a>

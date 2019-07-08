@@ -1,0 +1,25 @@
+.registration .layout-positioner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.registration h1 {
+    text-align: left;
+}
+
+.registration .dropdown-item {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .registration .layout-positioner {
+        padding: 0 1.5%;
+        width: auto;
+    }
+
+    .registration h1 {
+        font-size: 2em;
+        text-align: left;
+    }
+}

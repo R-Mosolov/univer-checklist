@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './css/style.css';
+import menuBurger from './js/menu-burger';
 
 const SiteHeader = () => {
     return (
@@ -12,7 +14,8 @@ const SiteHeader = () => {
                 data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation"
+                onClick={menuBurger}>
                 <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -20,8 +23,13 @@ const SiteHeader = () => {
                     <li className="nav-item">
                         <Link className="nav-link active" to="/login">Войти</Link>
                     </li>
-                    <li className="nav-item">
-                     <Link className="nav-link" to="/about-service">О сервисе</Link>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">О сервисе</a>
+                        <div className="dropdown-menu">
+                            <Link className="dropdown-item" to="/about-service-base">Кратко</Link>
+                            <Link className="dropdown-item" to="/about-service-full">Подробно</Link>
+                        </div>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/profile">Личный профиль</Link>
@@ -30,11 +38,11 @@ const SiteHeader = () => {
                         <Link className="nav-link" to="/results">Результаты проверок</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/checklist">Проверить работу</Link>
+                        <Link className="nav-link" to="/checklist-block-1">Проверить работу</Link>
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Что искать?" aria-label="Search" />
+                    <input className="form-control mr-sm-2" type="search" placeholder="В разработке..." aria-label="Search" />
                     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
                 </form>
             </div>

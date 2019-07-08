@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3858c174.chunk.css",
+    "main.js": "/static/js/main.2aec1d9a.chunk.js",
+    "main.js.map": "/static/js/main.2aec1d9a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.be096d48.chunk.css": "/static/css/2.be096d48.chunk.css",
+    "static/js/2.068f73ae.chunk.js": "/static/js/2.068f73ae.chunk.js",
+    "static/js/2.068f73ae.chunk.js.map": "/static/js/2.068f73ae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ff99bff09c63dc6db0c780ac850950d5.js": "/precache-manifest.ff99bff09c63dc6db0c780ac850950d5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.be096d48.chunk.css.map": "/static/css/2.be096d48.chunk.css.map",
+    "static/css/main.3858c174.chunk.css.map": "/static/css/main.3858c174.chunk.css.map",
+    "static/media/development.97d117e6.svg": "/static/media/development.97d117e6.svg",
+    "static/media/scholarship.5ce1d06f.svg": "/static/media/scholarship.5ce1d06f.svg"
+  }
+}

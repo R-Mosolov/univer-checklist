@@ -1,17 +1,27 @@
 import React from 'react';
+
+
 let result = 0;
-// const showResult = document.querySelector('.show-result');
 
-// if () {
-//
-// }
+const questionFirstAnswerFirst = 0;
+const questionFirstAnswerFirst
+const questionFirstAnswerSecond = 1;
 
-const calculateResult = () => {
-    return alert(`Hello, World!`);
+const QuestionSecondAnswerFirst = 0;
+const QuestionSecondAnswerSecond = 1;
+const QuestionSecondAnswerThird = 2;
+const QuestionSecondAnswerFourth = 3;
+
+const QuestionThirdAnswerFirst = 0;
+const QuestionThirdAnswerSecond = 1;
+const QuestionThirdAnswerThird = 2;
+
+
+const CalculateResult = () => {
+    if (QuestionFirstAnswerFirst) {
+        result += QuestionFirstAnswerFirst;
+        alert(result);
+    }
 };
 
-// showResult.addEventListener('click', function () {
-//     alert(`Hello, World!`);
-// });
-
-export default calculateResult;
+export default CalculateResult;
