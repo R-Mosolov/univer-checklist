@@ -4,6 +4,7 @@ import 'bootswatch/dist/litera/bootstrap.css';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import Main from "./pages/main/main";
 import Registration from './pages/registration/registration';
 import Login from './pages/login/login';
 import AboutServiceBase from './pages/about-service/about-service-base/about-service-base';
@@ -11,7 +12,7 @@ import AboutServiceFull from './pages/about-service/about-service-full/about-ser
 import Profile from './pages/profile/profile';
 import Results from './pages/results/results';
 
-import QuestionBlockOne from "./pages/checklist/site-content/blocks/question-block-1";
+import QuestionBlockOne from "./pages/checklist/site-content/blocks/question-block-1/question-block-1";
 import QuestionBlockTwo from "./pages/checklist/site-content/blocks/question-block-2";
 import QuestionBlockThree from "./pages/checklist/site-content/blocks/question-block-3";
 import QuestionBlockFour from "./pages/checklist/site-content/blocks/question-block-4";
@@ -22,7 +23,8 @@ function App() {
   return (
     <Router>
         <div className="App">
-            <Route path="/" exact component={Registration} />
+            <Route path="/" exact component={Main} />
+            <Route path="/registration" exact component={Registration} />
             <Route path="/login" component={Login} />
             <Route path="/about-service-base" component={AboutServiceBase} />
             <Route path="/about-service-full" component={AboutServiceFull} />

@@ -1,3 +1,25 @@
+.registration .page-background {
+    background-color: floralwhite;
+    background-image: url("../img/pen-with-details.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 60vw;
+}
+
+.registration img {
+    height: 420px;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.66;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.registration .background {
+    height: 420px;
+    width: 100vw;
+    background-color: black;
+}
+
 .registration .layout-positioner {
     margin-left: auto;
     margin-right: auto;
@@ -5,11 +27,28 @@
 }
 
 .registration h1 {
-    text-align: left;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "ProximaNova-Bold", Arial, sans-serif;
+    font-size: 72px;
+    color: white;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
 }
 
 .registration .dropdown-item {
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.registration .btn {
+    font-weight: bold;
+    color: white;
+    background-color: goldenrod;
+}
+
+.registration .btn:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

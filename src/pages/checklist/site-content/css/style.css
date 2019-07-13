@@ -8,6 +8,73 @@
     margin-left: 10px;
 }
 
+.checklist-block-1 {
+    background-color: floralwhite;
+}
+
+.checklist-block-1 .layout-positioner {
+    margin-left: 50vw;
+}
+
+.checklist-block-1 .portrait {
+    position: fixed;
+    margin-left: 12vw;
+    margin-top: 12vh;
+}
+
+.checklist-block-1 img {
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.checklist-block-1 h1,
+.checklist-block-1 h2 {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-1 .portrait-content {
+    z-index: 2;
+}
+
+.checklist-block-1 h3 {
+    margin-left: -35px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-1 .portrait-description {
+    margin-left: -10px;
+}
+
+.checklist-block-1 .hidden {
+    display: none;
+}
+
+/* Animation */
+.wrapper {
+    position: absolute;
+    display: flex;
+    margin-top: -180px;
+    margin-left: 185px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1px;
+    z-index: -1;
+}
+
+.el {
+    position: absolute;
+    opacity: 1;
+    width: 2px;
+    height: 15vh;
+    margin-top: -23vh;
+    transform-origin: 50% 100%;
+    background: white;
+    z-index: 0;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .checklist .layout-positioner {
         padding: 0 1.5%;

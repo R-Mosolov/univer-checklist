@@ -4,6 +4,10 @@
     width: 768px;
 }
 
+.about-service-base .d-flex {
+    height: 85vh;
+}
+
 .about-service-base h1 {
     margin: 35px 0;
     text-align: center;

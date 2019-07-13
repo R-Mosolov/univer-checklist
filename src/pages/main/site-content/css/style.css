@@ -1,0 +1,107 @@
+.main {
+    height: calc(100vh - 60px);
+    background-color: floralwhite;
+}
+
+.main h1,
+.main p,
+.main button {
+    font-family: "ProximaNova-Light", Arial, sans-serif;
+}
+
+.main .background {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.33);
+}
+
+.main .welcome {
+    margin: 33vh 110px 0;
+}
+
+.main h1 {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.main img {
+    height: calc(100vh - 60px);
+    width: 50vw;
+    object-fit: cover;
+}
+
+.main .btn {
+    font-weight: bold;
+    color: white;
+    background-color: goldenrod;
+}
+
+.main .btn:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main .welcome {
+        margin: 33vh 45px 0;
+    }
+}
+
+
+
+@media (min-width: 414px) and (max-width: 768px) {
+    .main .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .main .mobile-and-tablet {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+
+    .main .welcome {
+        margin: 0;
+        padding: 0 0 0;
+        width: 100vw;
+        height: calc(100vh - 40vh - 60px);
+    }
+
+    .main img {
+        width: 100vw;
+        height: 40vh;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .main .d-flex {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* Design for most popular mobile devices */
+/*@media (min-width: 414px) and (max-width: 414px) {*/
+/*    .main .welcome {*/
+/*        margin: 33vh 45px 0;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 320px) and (max-width: 320px) {*/
+/*    .main .welcome {*/
+/*        margin: 6.5vh 0 0;*/
+/*    }*/
+
+/*    .main h1 {*/
+/*        font-size: 1.4em;*/
+/*    }*/
+
+/*    .main p,*/
+/*    .main button {*/
+/*        font-size: 0.8em;*/
+/*    }*/
+/*}*/

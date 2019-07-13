@@ -1,18 +1,18 @@
 import React from 'react';
-import '../../css/style.css';
+import '../css/style.css';
 
-const FirstTable = () => {
+const SecondTable = () => {
     return (
         <div className="first-table">
             <div className="layout-positioner">
-                <p className="table__number">Таблица 1</p><br/>
-                <p className="table__title">Структура смысловых блоков Программы</p>
+                <p className="table__number font-italic text-right mt-0 mb-0">Таблица 2</p><br/>
+                <p className="table__title font-weight-bold text-center mt-0">Пример кодификации Программы</p>
                 <table className="table">
                     <thead>
-                    <tr>
-                        <th scope="col">Название блока</th>
-                        <th scope="col">№</th>
-                        <th scope="col">Пример вопроса</th>
+                    <tr className="table-primary">
+                        <th scope="col" className="text-center align-middle">Название блока</th>
+                        <th scope="col" className="text-center align-middle">№</th>
+                        <th scope="col" className="text-center align-middle">Пример вопроса</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -193,4 +193,4 @@ const FirstTable = () => {
     )
 };
 
-export default FirstTable;
+export default SecondTable;
