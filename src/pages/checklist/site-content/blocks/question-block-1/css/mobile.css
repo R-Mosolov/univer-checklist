@@ -1,0 +1,54 @@
+@media (min-width: 320px) and (max-width: 414px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .checklist-block-1 .layout-positioner {
+        margin-left: 0;
+    }
+
+    .checklist-block-1 .portrait {
+        position: static;
+        margin: 30px auto 0 auto;
+        padding: 0;
+    }
+
+    .checklist-block-1 .img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .checklist-block-1 img {
+        height: auto;
+        width: 80%;
+    }
+
+    .checklist-block-1 .portrait-name,
+    .checklist-block-1 .portrait-description {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .checklist-block-1 .portrait-name {
+        margin-top: 15px;
+    }
+
+    .checklist-block-1 .portrait-description {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .checklist-block-1 .form-container {
+        background-color: white;
+    }
+
+    .checklist-block-1 .mobile-break {
+        display: block;
+    }
+
+    .checklist-block-1 h1,
+    .checklist-block-1 h2 {
+        text-align: center;
+    }
+}

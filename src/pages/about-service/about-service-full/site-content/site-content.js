@@ -1,15 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/style.css';
-import './js/progress-bar';
-import { ReactComponent as Banner } from './img/scholarship.svg';
 
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
+import './js/progress-bar';
+
+import { ReactComponent as Banner } from './img/scholarship.svg';
 import Introduction from './blocks/introduction';
 import Concepts from './blocks/concepts';
-import Value from './blocks/value';
-import FirstTable from './blocks/first-table';
-import SecondTable from './blocks/second-table';
-import Direction from './blocks/direction';
+import Value from './blocks/value/value';
+import Direction from './blocks/direction/direction';
 import FootnoteLiterature from './blocks/footnote-literature';
 
 const SiteContent = () => {
@@ -26,8 +25,6 @@ const SiteContent = () => {
                     <Introduction />
                     <Concepts />
                     <Value />
-                    <FirstTable />
-                    <SecondTable />
                     <Direction />
                     <FootnoteLiterature />
                 </div>

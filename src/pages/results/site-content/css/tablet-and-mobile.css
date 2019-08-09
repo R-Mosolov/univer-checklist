@@ -1,0 +1,12 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .results .layout-positioner {
+        min-width: 100%;
+        padding: 0 1.5%;
+        width: auto;
+    }
+
+    .results .banner__development {
+        height: 250px;
+        width: 250px;
+    }
+}

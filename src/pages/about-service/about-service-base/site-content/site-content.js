@@ -1,12 +1,15 @@
 import React from 'react';
-import './css/style.css';
+
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
+
 import { ReactComponent as Banner } from "./img/scholarship.svg";
 
 const SiteContent = () => {
     return (
         <div className="about-service-base">
             <div className="layout-positioner">
-                <div className="d-flex flex-column justify-content-center align-items-center">
+                <div className="flex-container">
                     <div className="banner">
                         <h1>Кратко о сервисе <br/>«University Checklist»</h1>
                         <div className="banner__container">

@@ -1,27 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './css/style.css';
-import Background from './img/library.jpg';
-import {ReactComponent as Pen} from './img/pen.svg';
+
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
+
+import Background from '../site-content/img/library.jpg';
+import { ReactComponent as Pen } from '../site-content/img/pen.svg';
 
 const SiteContent = () => {
     return (
         <div className="main">
             <div className="d-flex">
                 <div className="background">
-                    <img src={Background} />
+                    <img src={Background} alt="Изображение библиотеки" />
                 </div>
-                <div className="mobile-and-tablet">
-                    <div className="welcome">
-                        <h1 className="text-center">Университетский чек-лист</h1>
+                <div className="tablet-and-mobile">
+                    <div className="welcome-container">
+                        <h1 className="text-center">Университетский <br className="mobile-break"/>чек-лист</h1>
                         <p className="text-center mt-3">Бесплатное веб-приложение для проверки качества выпускных,
                             квалификационных работ бакалавров и магистров.</p>
-                        <div className="d-flex justify-content-center">
-                            <Link to="/registration">
-                                <button className="btn mt-3">
-                                    <Pen />Перейти к регистрации
-                                </button>
-                            </Link>
+                        <div className="d-flex justify-content-center button-container">
+                            <div className="button-position">
+                                <Link to="/registration">
+                                    <button className="btn mt-3">
+                                        <Pen />Перейти к регистрации
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

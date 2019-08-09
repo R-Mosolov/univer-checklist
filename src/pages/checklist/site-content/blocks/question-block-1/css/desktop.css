@@ -1,0 +1,47 @@
+.checklist-block-1 {
+    background-color: floralwhite;
+}
+
+.checklist-block-1 .portrait {
+    position: fixed;
+    margin-left: 12vw;
+    margin-top: 12vh;
+}
+
+.checklist-block-1 img {
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.checklist-block-1 h1,
+.checklist-block-1 h2 {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-1 .portrait-container {
+    z-index: 2;
+}
+
+.checklist-block-1 h3 {
+    margin-left: -35px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-1 .portrait-description {
+    margin-left: -10px;
+}
+
+.checklist-block-1 .mobile-break {
+    display: none;
+}
+
+.checklist-block-1 .layout-positioner {
+    margin-left: 50vw;
+}
+
+.checklist-block-1 .hidden {
+    display: none;
+}

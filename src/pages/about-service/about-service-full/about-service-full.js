@@ -1,7 +1,6 @@
 import React from 'react';
-import SiteHeader from '../../site-header/site-header';
+import SiteHeader from '../../../global/header/site-header';
 import SiteContent from './site-content/site-content';
-// import './site-content/js/progress-bar';
 
 class AboutServiceFull extends React.Component {
     render() {

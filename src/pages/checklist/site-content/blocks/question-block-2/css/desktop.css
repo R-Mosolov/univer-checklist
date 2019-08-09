@@ -1,0 +1,43 @@
+.checklist-block-2 {
+    height: 100vh;
+    background-color: floralwhite;
+}
+
+.checklist-block-2 .portrait {
+    position: fixed;
+    margin-left: 12vw;
+    margin-top: 12vh;
+}
+
+.checklist-block-2 img {
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.checklist-block-2 h3 {
+    margin-left: -80px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-2 .portrait-description {
+    margin-left: -12px;
+}
+
+.checklist-block-2 .layout-positioner {
+    margin-top: 8vh;
+    margin-left: 50vw;
+}
+
+.checklist-block-2 .mobile-break {
+    display: none;
+}
+
+
+@media (max-height: 826px) {
+    .checklist-block-2 {
+        height: 100%;
+    }
+}

@@ -1,16 +1,15 @@
 import React from 'react';
-import './css/style.css';
-import LibraryPath from './img/library-path.jpg';
+
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
+
 import { ReactComponent as Pen } from "../../main/site-content/img/pen.svg";
 
 const SiteContent = () => {
     return (
         <div className="registration">
-            <div className="background">
-                <img src={LibraryPath} />
-            </div>
-            <div className="d-flex justify-content-center">
-                <h1 className="title">Регистрация</h1>
+            <div className="banner">
+                <h1 className="d-flex justify-content-center align-items-center h-100">Регистрация</h1>
             </div>
             <div className="page-background">
                 <div className="layout-positioner">

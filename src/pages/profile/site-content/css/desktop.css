@@ -1,0 +1,24 @@
+.profile .layout-positioner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.profile .banner__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.profile .d-flex {
+    height: 80vh;
+}
+
+.profile .banner__development {
+    height: 300px;
+    width: 300px;
+}
+
+.profile p {
+    margin-bottom: 35px;
+}

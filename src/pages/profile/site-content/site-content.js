@@ -1,5 +1,8 @@
 import React from 'react';
-import './css/style.css';
+
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
+
 import { ReactComponent as Banner } from "./img/development.svg";
 
 const SiteContent = () => {

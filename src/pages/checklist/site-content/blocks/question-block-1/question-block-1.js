@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../../../global-css/style.css';
+
+import '../../../../../global/css/style.css';
 import '../../css/style.css';
-import SiteHeader from '../../../../site-header/site-header';
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
+
+import SiteHeader from '../../../../../global/header/site-header';
 import Lomonosov from './img/Lomonosov.png';
 import './js/about-portrait';
 
@@ -12,14 +17,18 @@ const QuestionBlockOne = () => {
             <SiteHeader />
             <div className="d-flex">
                 <div className="portrait d-flex justify-content-center">
-                    <div className="portrait-content">
-                        <img src={Lomonosov} />
-                        <h3>Михаил Васильевич Ломоносов</h3>
-                        <p className="portrait-description">Основатель первого московского Университета</p>
+                    <div className="portrait-container">
+                        <div className="img-container">
+                            <img src={Lomonosov} alt="Портрет М.В. Ломоносова" />
+                        </div>
+                        <h3 className="portrait-name">Михаил Васильевич Ломоносов</h3>
+                        <p className="portrait-description">
+                            Основатель первого <br className="mobile-break"/>московского Университета
+                        </p>
                         <div className="wrapper"/>
                     </div>
                 </div>
-                <div className="layout-positioner">
+                <div className="form-container layout-positioner">
                     <form className="px-4 py-3">
                         <h1 className="mt-4">Проверка ВКР</h1>
 
