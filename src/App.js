@@ -23,21 +23,22 @@ import RecommendationPage from './pages/checklist/site-content/blocks/checklist-
 function App() {
   return (
     <Router>
-        <div className="App">
-            <Route path="/" exact component={Main} />
-            <Route path="/registration" exact component={Registration} />
-            <Route path="/login" component={Login} />
-            <Route path="/about-service-base" component={AboutServiceBase} />
-            <Route path="/about-service-full" component={AboutServiceFull} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/results" component={Results} />
-                <Route path="/checklist-block-1" component={QuestionBlockOne} />
-                <Route path="/checklist-block-2" component={QuestionBlockTwo} />
-                <Route path="/checklist-block-3" component={QuestionBlockThree} />
-                <Route path="/checklist-block-4" component={QuestionBlockFour} />
-                <Route path="/checklist-block-5" component={QuestionBlockFive} />
-                <Route path="/recommendation-page" component={RecommendationPage} />
-        </div>
+      <div className="App">
+        <Route path="/" exact component={Main} />
+        <Route path="/registration" exact component={Registration} />
+        <Route path="/login" component={Login} />
+        <Route path="/about-service-base" component={AboutServiceBase} />
+        <Route path="/about-service-full" component={AboutServiceFull} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/results" component={Results} />
+
+        <Route path="/checklist-block-1" component={QuestionBlockOne} />
+        <Route path="/checklist-block-2" component={QuestionBlockTwo} />
+        <Route path="/checklist-block-3" component={QuestionBlockThree} />
+        <Route path="/checklist-block-4" component={QuestionBlockFour} />
+        <Route path="/checklist-block-5" component={QuestionBlockFive} />
+        <Route path="/recommendation-page" component={RecommendationPage} />
+      </div>
     </Router>
   );
 }
