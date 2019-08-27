@@ -12,12 +12,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1P40RxX6GmPBJc9AefXHOmycw6F" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/profile/site-content/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,11 +29,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page/css" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data" />
+      <recent name="$PROJECT_DIR$/src/pages/registration/site-content/img" />
       <recent name="$PROJECT_DIR$/src/global/css" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-5" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/profile/site-content/img" />
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-3" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-2/js" />
     </key>
   </component>
   <component name="RunDashboard">

@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../css/style.css';
 import CalculateResultFourth from '../../js/calculate-result-4';
-import {Link} from "react-router-dom";
+import {Link} from 'react-router-dom';
 import SiteHeader from '../../../../../global/header/site-header';
+import getWeight from '../checklist-data/get-weight';
+import getRecommendation from "../checklist-data/get-recommendation";
 
 const QuestionBlockFive = () => {
     return (
@@ -17,20 +19,20 @@ const QuestionBlockFive = () => {
                         <p className="mt-4">
                             5.1. Страницы начала глав и параграфов соответствуют тем, которые указаны в содержании?
                         </p>
-                        <input type="radio" id="question-4__answer-1" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-4__answer-1">Да, соответствуют</label><br/>
-                        <input type="radio" id="question-4__answer-2" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-4__answer-2">Нет, не соответствуют</label><br/>
+                        <input type="radio" id="question-14__answer-1" name="question-14"/><span className="margin"/>
+                        <label htmlFor="question-14__answer-1">Да, соответствуют</label><br/>
+                        <input type="radio" id="question-14__answer-2" name="question-14"/><span className="margin"/>
+                        <label htmlFor="question-14__answer-2">Нет, не соответствуют</label><br/>
                     </div>
 
                     <div className="form-group">
                         <p className="mt-4">
                             5.2. Названия разделов выделены жирным шрифтом и написаны прописными буквами?
                         </p>
-                        <input type="radio" id="question-5__answer-1" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-5__answer-1">Да, оформлены так</label><br/>
-                        <input type="radio" id="question-5__answer-2" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-5__answer-2">Нет, оформлены иначе</label><br/>
+                        <input type="radio" id="question-15__answer-1" name="question-15"/><span className="margin"/>
+                        <label htmlFor="question-15__answer-1">Да, оформлены так</label><br/>
+                        <input type="radio" id="question-15__answer-2" name="question-15"/><span className="margin"/>
+                        <label htmlFor="question-15__answer-2">Нет, оформлены иначе</label><br/>
                     </div>
 
                     <div className="form-group">
@@ -38,10 +40,10 @@ const QuestionBlockFive = () => {
                             5.3. Все смысловые блоки работы включены в содержание? Например, введение, глава 1,
                             параграфы главы 1 и т.д.
                         </p>
-                        <input type="radio" id="question-5__answer-1" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-5__answer-1">Да, включены</label><br/>
-                        <input type="radio" id="question-5__answer-2" name="question-4"/><span className="margin"/>
-                        <label htmlFor="question-5__answer-2">Нет, не включены</label><br/>
+                        <input type="radio" id="question-16__answer-1" name="question-16"/><span className="margin"/>
+                        <label htmlFor="question-16__answer-1">Да, включены</label><br/>
+                        <input type="radio" id="question-16__answer-2" name="question-16"/><span className="margin"/>
+                        <label htmlFor="question-16__answer-2">Нет, не включены</label><br/>
                     </div>
 
                     <nav className="mt-4" aria-label="Page navigation example">
@@ -52,11 +54,13 @@ const QuestionBlockFive = () => {
                                 </Link>
                             </li><br/>
                         </ul>
+                        <span className="get-recommendation mb-4 text-center">
+                            <Link className="btn btn-block btn-outline-success"
+                                  to="/recommendation-page/recommendation-page">
+                                Получить рекомендации
+                            </Link>
+                        </span>
                     </nav>
-
-                    <button type="button" className="btn btn-primary btn-block" onClick={CalculateResultFourth}>
-                        Получить результат
-                    </button>
                 </form>
             </div>
         </div>

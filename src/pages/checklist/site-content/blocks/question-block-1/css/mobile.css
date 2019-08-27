@@ -20,7 +20,7 @@
 
     .checklist-block-1 img {
         height: auto;
-        width: 80%;
+        max-width: 80%;
     }
 
     .checklist-block-1 .portrait-name,
@@ -40,6 +40,7 @@
     }
 
     .checklist-block-1 .form-container {
+        width: 100%;
         background-color: white;
     }
 

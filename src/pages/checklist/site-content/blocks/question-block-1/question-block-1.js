@@ -16,13 +16,13 @@ const QuestionBlockOne = () => {
         <div className="checklist checklist-block-1">
             <SiteHeader />
             <div className="d-flex">
-                <div className="portrait d-flex justify-content-center">
+                <div className="portrait d-flex justify-content-center align-items-center">
                     <div className="portrait-container">
                         <div className="img-container">
                             <img src={Lomonosov} alt="Портрет М.В. Ломоносова" />
                         </div>
-                        <h3 className="portrait-name">Михаил Васильевич Ломоносов</h3>
-                        <p className="portrait-description">
+                        <h3 className="portrait-name mt-3 text-center">Михаил Васильевич <br className="mobile-break"/>Ломоносов</h3>
+                        <p className="portrait-description text-center">
                             Основатель первого <br className="mobile-break"/>московского Университета
                         </p>
                         <div className="wrapper"/>
@@ -66,14 +66,14 @@ const QuestionBlockOne = () => {
 
                         <div className="form-group">
                             <p className="mt-4">1.4. На какой месяц назначена защита работы?</p>
-                            <input type="radio" id="question-3__answer-1" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-1">Январь-март</label><br/>
-                            <input type="radio" id="question-3__answer-2" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-2">Апрель-июнь</label><br/>
-                            <input type="radio" id="question-3__answer-3" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-3">Июль-сентябрь</label><br/>
-                            <input type="radio" id="question-3__answer-3" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-3">Октябрь-декабрь</label><br/>
+                            <input type="radio" id="question-4__answer-1" name="question-4"/><span className="margin"/>
+                            <label htmlFor="question-4__answer-1">Январь-март</label><br/>
+                            <input type="radio" id="question-4__answer-2" name="question-4"/><span className="margin"/>
+                            <label htmlFor="question-4__answer-2">Апрель-июнь</label><br/>
+                            <input type="radio" id="question-4__answer-3" name="question-4"/><span className="margin"/>
+                            <label htmlFor="question-4__answer-3">Июль-сентябрь</label><br/>
+                            <input type="radio" id="question-4__answer-4" name="question-4"/><span className="margin"/>
+                            <label htmlFor="question-4__answer-4">Октябрь-декабрь</label><br/>
                         </div>
 
                         <nav className="mt-4" aria-label="Page navigation example">

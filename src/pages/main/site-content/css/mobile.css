@@ -1,6 +1,10 @@
 @media (min-width: 320px) and (max-width: 414px) {
     .main img {
-        height: calc(100vh / 2.25 - 80px);
+        height: calc(100vh / 2.5 - 80px);
+    }
+
+    .main .tablet-and-mobile {
+        height: 60vh;
     }
 }
 

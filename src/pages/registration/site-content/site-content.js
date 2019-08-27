@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './css/desktop.css';
-import './css/tablet-and-mobile.css';
+import './css/tablet.css';
+import './css/mobile.css';
 
 import { ReactComponent as Pen } from "../../main/site-content/img/pen.svg";
 

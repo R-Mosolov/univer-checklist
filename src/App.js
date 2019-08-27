@@ -18,7 +18,7 @@ import QuestionBlockTwo from './pages/checklist/site-content/blocks/question-blo
 import QuestionBlockThree from './pages/checklist/site-content/blocks/question-block-3/question-block-3';
 import QuestionBlockFour from './pages/checklist/site-content/blocks/question-block-4/question-block-4';
 import QuestionBlockFive from './pages/checklist/site-content/blocks/question-block-5/question-block-5';
-import RecommendationPage from './pages/checklist/site-content/blocks/recommendation-page/recommendation-page';
+import RecommendationPage from './pages/checklist/site-content/blocks/checklist-data/recommendation-page/recommendation-page';
 
 function App() {
   return (

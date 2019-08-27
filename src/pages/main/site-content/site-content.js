@@ -23,7 +23,7 @@ const SiteContent = () => {
                         <div className="d-flex justify-content-center button-container">
                             <div className="button-position">
                                 <Link to="/registration">
-                                    <button className="btn mt-3">
+                                    <button className="btn mt-2">
                                         <Pen />Перейти к регистрации
                                     </button>
                                 </Link>

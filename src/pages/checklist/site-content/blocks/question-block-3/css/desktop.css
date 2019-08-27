@@ -1,30 +1,30 @@
-.checklist-block-2 {
+.checklist-block-3 {
     height: 100%;
     background-color: floralwhite;
 }
 
-.checklist-block-2 .portrait {
+.checklist-block-3 .portrait {
     width: 50vw;
     height: calc(100vh - 60px);
 }
 
-.checklist-block-2 img {
+.checklist-block-3 img {
     height: 450px;
-    width: auto;
+    width: 334px;
 }
 
-.checklist-block-2 h3 {
+.checklist-block-3 h3 {
     font-size: 28px;
     color: rgba(0, 0, 0, 0.66);
 }
 
-.checklist-block-2 .mobile-break {
+.checklist-block-3 .mobile-break {
     display: none;
 }
 
 
 @media (max-height: 826px) {
-    .checklist-block-2 {
+    .checklist-block-3 {
         height: 100%;
     }
 }
