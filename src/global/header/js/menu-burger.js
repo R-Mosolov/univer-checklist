@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 const menuBurger = () => {
-  $('.collapse').slideToggle();
+    $('.collapse').slideToggle();
 };
 
 export default menuBurger;
