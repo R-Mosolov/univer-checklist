@@ -5,11 +5,11 @@ document.oncopy = () => {
     const lastLetter = selectedText.charAt(selectedText.length - 1);
 
     if (firstLetter === firstLetter.toLowerCase()) {
-        selectedText = `<...> ${selectedText}`;
+        selectedText = `...${selectedText}`;
     }
 
     if (lastLetter !== '.' && lastLetter && '...' && lastLetter !== '?' && lastLetter !== '!') {
-        selectedText = `${selectedText} <...>`;
+        selectedText = `${selectedText}...`;
     }
 
     // Добавить условие: если первое слово выделено не полностью, то выделить его в полном виде.
@@ -19,6 +19,7 @@ document.oncopy = () => {
     let day = date.getDay().toString();
     let month = date.getMonth().toString();
     let year = date.getFullYear().toString();
+    const currentURLPath = window.location.pathname;
 
     if (day.length < 2) {
         day = `0${day}`;
@@ -28,8 +29,7 @@ document.oncopy = () => {
         month = `0${month}`;
     }
 
-    // Добавить в ссылку копируемого источника точность вплоть до страницы.
-    alert(`«${selectedText}» (источник: university-checklist.ru; дата обращения: ${day}.${month}.${year}).`);
+    alert(`«${selectedText}» (источник: university-checklist.ru${currentURLPath}; дата обращения: ${day}.${month}.${year}).`);
 
-    // Заменить alert на команду копирования текста. Возможно, понадобится знание о работе буфера обмена.
+    // Заменить alert на команду копирования текста. Чтобы реализовать, понадобится знание о работе буфера обмена.
 };

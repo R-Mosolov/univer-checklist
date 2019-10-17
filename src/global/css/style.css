@@ -13,3 +13,14 @@ input,
 label {
     font-family: 'Forum', cursive, sans-serif;
 }
+
+.night-mode {
+    color: white;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.night-mode:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}

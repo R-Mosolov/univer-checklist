@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/litera/bootstrap.css';
 import './global/css/style.css';
+
 import './global/js/create-citation';
+import './global/js/night-mode/night-mode';
 
 import Main from './pages/main/main';
 import Registration from './pages/registration/registration';

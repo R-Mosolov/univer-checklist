@@ -6,6 +6,7 @@ import './css/desktop.css';
 import './css/tablet-and-desktop.css';
 
 import menuBurger from './js/menu-burger';
+import { runNightMode } from '../js/night-mode/night-mode';
 
 const SiteHeader = () => {
     return (
@@ -50,8 +51,13 @@ const SiteHeader = () => {
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="search" placeholder="В разработке..." aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
+                        <button
+                            id="night-mode"
+                            className="night-mode btn my-2 my-sm-0"
+                            type="button"
+                            onClick={runNightMode}>
+                            Ночной режим
+                        </button>
                     </form>
                 </div>
             </nav>

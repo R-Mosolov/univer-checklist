@@ -33,18 +33,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page/css" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data" />
+      <recent name="$PROJECT_DIR$/src/pages/registration/site-content/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/global" />
       <recent name="$PROJECT_DIR$/src/pages/profile/site-content/img" />
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-3" />
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-2/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page/css" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data" />
-      <recent name="$PROJECT_DIR$/src/pages/registration/site-content/img" />
-      <recent name="$PROJECT_DIR$/src/global/css" />
     </key>
   </component>
   <component name="RunDashboard">
