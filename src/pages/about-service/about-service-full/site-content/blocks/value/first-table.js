@@ -9,7 +9,7 @@ const FirstTable = () => {
                 <p className="table__title font-weight-bold text-center mt-0">Структура смысловых блоков Программы</p>
                 <table className="table">
                     <thead>
-                    <tr className="table-primary">
+                    <tr className="title-color">
                         <th scope="col" className="text-center align-middle">Название блока</th>
                         <th scope="col" className="text-center align-middle">№</th>
                         <th scope="col" className="text-center align-middle">Пример вопроса</th>

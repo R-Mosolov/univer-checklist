@@ -11,7 +11,7 @@ import { runNightMode } from '../js/night-mode/night-mode';
 const SiteHeader = () => {
     return (
         <div className="site-header">
-            <nav className="navbar navbar-expand-xl navbar-light bg-light shadow-sm">
+            <nav className="navbar navbar-expand-xl navbar-light shadow-sm">
                 <Link className="navbar-brand" to="/">University Checklist</Link>
                 <button
                     className="navbar-toggler"

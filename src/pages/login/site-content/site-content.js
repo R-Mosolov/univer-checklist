@@ -42,7 +42,7 @@ const SiteContent = () => {
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" className="btn btn-primary">Войти</button>
+                        <button type="submit" className="login__button btn btn-block">Войти</button>
                     </form>
                     <div className="dropdown-divider" />
                     <a className="dropdown-item" href="#">Забыли пароль?</a>
