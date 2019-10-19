@@ -81,7 +81,7 @@ export default class QuestionBlockTwo extends Component {
                                     </li>
                                 </ul>
                                 <span className="get-recommendation mb-4 text-center">
-                                    <Link className="btn btn-block btn-outline-success"
+                                    <Link className="btn btn-block"
                                           to="/recommendation-page/recommendation-page">
                                         Получить рекомендации
                                     </Link>

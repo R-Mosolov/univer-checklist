@@ -39,7 +39,7 @@ const FootnoteLiterature = () => {
                 федеральный университет» (в редакции принятой Учебно-методическим советом от 27 апреля 2012 года,
                 протокол №2).
             </p>
-            <p className="mt-3 mb-5 text-justify">
+            <p className="last-paragraph mt-3 pb-5 text-justify">
                 5. GfK. Проникновение Интернета в России (пресс-релиз) [Электронный ресурс] // URL: <a
                 href="https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_Penetration_in_Russia_2017-2018.pdf"
                 target="_blank">https://www.gfk.com/fileadmin/user_upload/dyna_<br/>content/RU/Documents/Press_Releases/2018

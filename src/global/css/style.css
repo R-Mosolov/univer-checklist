@@ -18,6 +18,17 @@ body {
     background-color: floralwhite;
 }
 
+.btn {
+    color: white;
+    background-color: goldenrod;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: white;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
 .night-mode {
     color: white;
     background-color: black;

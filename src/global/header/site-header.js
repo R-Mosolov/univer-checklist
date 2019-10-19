@@ -6,7 +6,7 @@ import './css/desktop.css';
 import './css/tablet-and-desktop.css';
 
 import menuBurger from './js/menu-burger';
-import { runNightMode } from '../js/night-mode/night-mode';
+import { runNightMode } from '../js/night-mode/run-night-mode';
 
 const SiteHeader = () => {
     return (

@@ -34,3 +34,8 @@
     color: white;
     background-color: goldenrod;
 }
+
+.about-service-full .last-paragraph {
+    margin: 0;
+    padding: 0;
+}
