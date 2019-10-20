@@ -19,7 +19,7 @@
   <component name="ProjectId" id="1P40RxX6GmPBJc9AefXHOmycw6F" />
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/global/js/night-mode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/about-service/about-service-full/site-content/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -41,11 +41,11 @@
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/about-service/about-service-full/site-content/js" />
       <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
       <recent name="$PROJECT_DIR$/src/global" />
       <recent name="$PROJECT_DIR$/src/pages/profile/site-content/img" />
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-3" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-2/js" />
     </key>
   </component>
   <component name="RunDashboard">

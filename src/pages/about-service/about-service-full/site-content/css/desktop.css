@@ -1,7 +1,13 @@
 .about-service-full .progress {
     position: fixed;
-    height: 10px;
+    top: 0;
+    height: 5px;
     width: 100%;
+}
+
+.about-service-full .progress-bar {
+    width: 0;
+    background-color: goldenrod;
 }
 
 .about-service-full .layout-positioner {

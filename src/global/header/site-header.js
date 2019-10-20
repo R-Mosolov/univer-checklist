@@ -47,7 +47,7 @@ const SiteHeader = () => {
                             <Link className="nav-link" to="/results">Результаты проверок</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/checklist-block-1">Проверить работу</a>
+                            <Link className="nav-link" to="/checklist-block-1">Проверить работу</Link>
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">

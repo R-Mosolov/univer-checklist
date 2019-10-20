@@ -13,7 +13,16 @@ import FootnoteLiterature from './blocks/footnote-literature';
 
 const SiteContent = () => {
     return (
-        <div className="about-service-full">
+        <div className="about-service-full" id="about-service-full">
+            <div className="progress" id="progress">
+                <div
+                    className="progress-bar progress-bar-striped"
+                    id="progress-bar"
+                    role="progressbar"
+                    aria-valuenow={25}
+                    aria-valuemin={0}
+                    aria-valuemax={100}/>
+            </div>
             <div className="layout-positioner">
                 <div className="banner">
                     <h1>Подробно о сервисе <br/>«University Checklist»</h1>
@@ -23,6 +32,7 @@ const SiteContent = () => {
                 </div>
                 <div className="description">
                     <Introduction />
+                    <button id="getScrollingHeight" className="btn mb-4">Получить высоту скроллинга</button>
                     <Concepts />
                     <Value />
                     <Direction />
