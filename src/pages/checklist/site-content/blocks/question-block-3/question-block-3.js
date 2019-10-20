@@ -9,7 +9,7 @@ import '../../css/style.css';
 import SiteHeader from '../../../../../global/header/site-header';
 import Mendeleev from "./img/Mendeleev.png";
 import getWeight from '../checklist-data/get-weight';
-import getRecommendation from "../checklist-data/get-recommendation";
+import { getRecommendation } from "../checklist-data/get-recommendation";
 
 const QuestionBlockThree = () => {
     return (

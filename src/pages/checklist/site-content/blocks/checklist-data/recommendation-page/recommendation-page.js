@@ -5,7 +5,7 @@ import './css/style.css';
 import SiteHeader from '../../../../../../global/header/site-header';
 
 import getWeight from '../get-weight';
-import getRecommendation from '../get-recommendation';
+import { getRecommendation } from '../get-recommendation';
 
 const RecommendationPage = () => {
     return (
@@ -27,7 +27,7 @@ const RecommendationPage = () => {
 
                     <nav className="d-flex justify-content-center">
                         <Link
-                            className="get-recommendation btn btn-outline-success text-center"
+                            className="get-recommendation btn text-center"
                             to="/checklist-block-2">
                             Вернуться к тесту
                         </Link>

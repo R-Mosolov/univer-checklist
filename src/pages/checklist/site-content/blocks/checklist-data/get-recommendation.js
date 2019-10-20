@@ -2,9 +2,9 @@ import $ from 'jquery';
 import allRecommendations from './all-recommendations';
 import React from 'react';
 
-let recommendationsForUser = [];
-
 const getRecommendation = () => {
+    let recommendationsForUser = [];
+    let layout = [];
 
     const addRecommendation = (n) => recommendationsForUser.push(allRecommendations[n]);
 
@@ -24,13 +24,19 @@ const getRecommendation = () => {
     if ($('#question-15__answer-2').is(':checked')) addRecommendation(10);
     if ($('#question-16__answer-2').is(':checked')) addRecommendation(11);
 
+    const generateRecommendationLayout = () => {
+        for (let i = 0; i < recommendationsForUser.length; i++) {
+            layout.push(<li>{recommendationsForUser[i]}</li>);
+        }
+
+        return layout;
+    };
+
     return (
         <ol>
-            <li>{recommendationsForUser[0]}</li>
-            <li>{recommendationsForUser[1]}</li>
-            <li>{recommendationsForUser[2]}</li>
+            {generateRecommendationLayout()}
         </ol>
     );
 };
 
-export default getRecommendation;
+export { getRecommendation };

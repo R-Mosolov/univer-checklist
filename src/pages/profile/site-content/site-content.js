@@ -8,7 +8,7 @@ const SiteContent = () => {
         <div className="profile">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-4 vh-100 shadow-sm">
+                    <div className=" col-4 shadow-sm">
                         <h2 className="mt-4 text-center">Мой профиль</h2>
                         <img className="m-4" alt="Моя фотография" src={User} />
                         <h3 className="text-center">Фамилия Имя Отчество</h3>

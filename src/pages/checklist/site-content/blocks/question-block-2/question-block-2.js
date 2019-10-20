@@ -9,7 +9,7 @@ import SiteHeader from '../../../../../global/header/site-header';
 import Ciolkovskii from './img/Ciolkovskii.png';
 import './js/portrait-animation';
 import getWeight from '../checklist-data/get-weight';
-import getRecommendation from '../checklist-data/get-recommendation';
+import { getRecommendation } from '../checklist-data/get-recommendation';
 
 export default class QuestionBlockTwo extends Component {
     render() {

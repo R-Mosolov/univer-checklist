@@ -3,7 +3,7 @@ import '../../css/style.css';
 import { Link } from "react-router-dom";
 import SiteHeader from '../../../../../global/header/site-header';
 import getWeight from "../checklist-data/get-weight";
-import getRecommendation from "../checklist-data/get-recommendation";
+import { getRecommendation } from "../checklist-data/get-recommendation";
 
 const QuestionBlockFour = () => {
     return (
