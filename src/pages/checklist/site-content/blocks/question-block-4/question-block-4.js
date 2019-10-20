@@ -2,8 +2,8 @@ import React from 'react';
 import '../../css/style.css';
 import { Link } from "react-router-dom";
 import SiteHeader from '../../../../../global/header/site-header';
-import getWeight from "../checklist-data/get-weight";
-import { getRecommendation } from "../checklist-data/get-recommendation";
+import generateWeight from "../checklist-recommendations/generate-weight";
+import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
 
 const QuestionBlockFour = () => {
     return (
@@ -52,8 +52,8 @@ const QuestionBlockFour = () => {
                                 <Link className="page-link"
                                       to="/checklist-block-5"
                                       onClick={() => {
-                                          getWeight();
-                                          getRecommendation();
+                                          generateWeight();
+                                          generateRecommendations();
                                       }}>
                                     Следующий блок
                                 </Link>

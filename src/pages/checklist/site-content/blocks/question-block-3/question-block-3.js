@@ -8,8 +8,8 @@ import './css/mobile.css';
 import '../../css/style.css';
 import SiteHeader from '../../../../../global/header/site-header';
 import Mendeleev from "./img/Mendeleev.png";
-import getWeight from '../checklist-data/get-weight';
-import { getRecommendation } from "../checklist-data/get-recommendation";
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
 
 const QuestionBlockThree = () => {
     return (
@@ -70,8 +70,8 @@ const QuestionBlockThree = () => {
                                     <Link className="page-link"
                                           to="/checklist-block-4"
                                           onClick={() => {
-                                              getWeight();
-                                              getRecommendation();
+                                              generateWeight();
+                                              generateRecommendations();
                                           }}>
                                         Следующий блок
                                     </Link>

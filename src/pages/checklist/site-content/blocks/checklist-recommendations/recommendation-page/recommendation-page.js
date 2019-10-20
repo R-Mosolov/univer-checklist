@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import './css/style.css';
 import SiteHeader from '../../../../../../global/header/site-header';
 
-import getWeight from '../get-weight';
-import { getRecommendation } from '../get-recommendation';
+import generateWeight from '../generate-weight';
+import { generateRecommendations } from '../generate-recommendations/generate-recommendations';
 
 const RecommendationPage = () => {
     return (
@@ -15,7 +15,7 @@ const RecommendationPage = () => {
                 <div className="recommendation-container p-5 rounded shadow">
                     <h1 className="text-center mb-4">Список рекомендаций</h1>
 
-                    <p>По итогам теста Вами было набрано баллов: <i>{getWeight()}</i>.</p>
+                    <p>По итогам теста Вами было набрано баллов: <i>{generateWeight()}</i>.</p>
 
                     <p>Ниже будет приведен список рекомендаций, который поможет доработать ВКР до совершенства.
                         Каждый пункт списка содержит 1,5 условных балла и повышает вероятность более
@@ -23,7 +23,7 @@ const RecommendationPage = () => {
                         баллов, которые можно было набрать по итогам теста: 50.</p>
 
                     <h3 className="recommendations-title text-center">Рекомендации по блоку 2</h3>
-                    <p className="get-recommendation">{getRecommendation()}</p>
+                    <p className="get-recommendation">{generateRecommendations()}</p>
 
                     <nav className="d-flex justify-content-center">
                         <Link

@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 let checklistWeight = 0;
 
-const getWeight = () => {
+const generateWeight = () => {
 
     const addWeight = () => checklistWeight += 1.5;
 
@@ -25,4 +25,4 @@ const getWeight = () => {
     return checklistWeight;
 };
 
-export default getWeight;
+export default generateWeight;

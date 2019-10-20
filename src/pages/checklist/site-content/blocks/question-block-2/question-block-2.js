@@ -8,8 +8,8 @@ import './css/mobile.css';
 import SiteHeader from '../../../../../global/header/site-header';
 import Ciolkovskii from './img/Ciolkovskii.png';
 import './js/portrait-animation';
-import getWeight from '../checklist-data/get-weight';
-import { getRecommendation } from '../checklist-data/get-recommendation';
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 export default class QuestionBlockTwo extends Component {
     render() {
@@ -73,8 +73,8 @@ export default class QuestionBlockTwo extends Component {
                                         <Link className="page-link"
                                               to="/checklist-block-3"
                                               onClick={() => {
-                                                  getWeight();
-                                                  getRecommendation();
+                                                  generateWeight();
+                                                  generateRecommendations();
                                               }}>
                                             Следующий блок
                                         </Link>

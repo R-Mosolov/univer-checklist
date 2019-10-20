@@ -3,8 +3,8 @@ import '../../css/style.css';
 import CalculateResultFourth from '../../js/calculate-result-4';
 import {Link} from 'react-router-dom';
 import SiteHeader from '../../../../../global/header/site-header';
-import getWeight from '../checklist-data/get-weight';
-import { getRecommendation } from '../checklist-data/get-recommendation';
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 const QuestionBlockFive = () => {
     return (
