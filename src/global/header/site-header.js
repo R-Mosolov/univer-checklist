@@ -7,6 +7,7 @@ import './css/tablet-and-desktop.css';
 
 import menuBurger from './js/menu-burger';
 import { runNightMode } from '../js/night-mode/run-night-mode';
+import { zoomOutFonts, fontsNormalZoom, zoomUpFonts } from '../js/change-fonts-size';
 
 const SiteHeader = () => {
     return (
@@ -51,6 +52,32 @@ const SiteHeader = () => {
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
+                        <div className="mr-2 btn-group">
+                        <button
+                            className="button-font-size font-zoom-out btn my-2 my-sm-0"
+                            type="button"
+                            onClick={zoomOutFonts}>
+                            <span className="small-letter">
+                                А-
+                            </span>
+                        </button>
+                        <button
+                            className="button-font-size font-zoom-up btn my-2 my-sm-0"
+                            type="button"
+                            onClick={fontsNormalZoom}>
+                            <span className="normal-letter">
+                                А
+                            </span>
+                        </button>
+                        <button
+                            className="button-font-size font-zoom-up btn my-2 my-sm-0"
+                            type="button"
+                            onClick={zoomUpFonts}>
+                            <span className="big-letter">
+                                А+
+                            </span>
+                        </button>
+                        </div>
                         <button
                             id="night-mode"
                             className="night-mode btn my-2 my-sm-0"

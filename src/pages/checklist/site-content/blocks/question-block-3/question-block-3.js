@@ -7,9 +7,9 @@ import './css/mobile.css';
 
 import '../../css/style.css';
 import SiteHeader from '../../../../../global/header/site-header';
-import Mendeleev from "./img/Mendeleev.png";
+import Mendeleev from './img/Mendeleev.png';
 import generateWeight from '../checklist-recommendations/generate-weight';
-import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 const QuestionBlockThree = () => {
     return (
@@ -71,8 +71,8 @@ const QuestionBlockThree = () => {
                                           to="/checklist-block-4"
                                           onClick={() => {
                                               generateWeight();
-                                              generateRecommendations();
-                                          }}>
+                                              generateRecommendations();}}
+                                          >
                                         Следующий блок
                                     </Link>
                                 </li>

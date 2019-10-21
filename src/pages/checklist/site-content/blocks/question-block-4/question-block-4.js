@@ -1,13 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './css/desktop.css';
+
 import '../../css/style.css';
-import { Link } from "react-router-dom";
 import SiteHeader from '../../../../../global/header/site-header';
-import generateWeight from "../checklist-recommendations/generate-weight";
-import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 const QuestionBlockFour = () => {
     return (
-        <div className="checklist">
+        <div className="checklist checklist-block-4">
             <SiteHeader />
             <div className="layout-positioner">
                 <form className="px-4 py-3">
@@ -53,8 +56,8 @@ const QuestionBlockFour = () => {
                                       to="/checklist-block-5"
                                       onClick={() => {
                                           generateWeight();
-                                          generateRecommendations();
-                                      }}>
+                                          generateRecommendations();}}
+                                      >
                                     Следующий блок
                                 </Link>
                             </li>

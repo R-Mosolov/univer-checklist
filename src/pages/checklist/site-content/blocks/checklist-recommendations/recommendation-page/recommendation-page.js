@@ -22,7 +22,7 @@ const RecommendationPage = () => {
                         профессионального восприятия Вашей работы дипломной Комиссией. Максимальное количество условных
                         баллов, которые можно было набрать по итогам теста: 50.</p>
 
-                    <h3 className="recommendations-title text-center">Рекомендации по блоку 2</h3>
+                    <h3 className="recommendations-title text-center">Список рекомендаций</h3>
                     <p className="get-recommendation">{generateRecommendations()}</p>
 
                     <nav className="d-flex justify-content-center">

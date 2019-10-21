@@ -1,11 +1,11 @@
-import { generateLightText } from './generate-light-text';
+import { generateTextAnticolor } from './generate-text-anticolor';
 
 const changeTextsColor = (color) => {
     const generateLightTextInArray = () => {
-        const textsArray = ['p', 'h1', 'h2', 'h3', 'h5', 'thead', 'td', 'th', 'li', '.site-header a', 'input', 'label'];
+        const allDocumentTexts = ['p', 'h1', 'h2', 'h3', 'h5', 'thead', 'td', 'th', 'li', '.site-header a', 'input', 'label'];
 
-        for (let tag of textsArray) {
-            generateLightText(`${tag}`, `${color}`);
+        for (let tag of allDocumentTexts) {
+            generateTextAnticolor(`${tag}`, `${color}`);
         }
     };
 

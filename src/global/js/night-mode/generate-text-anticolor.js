@@ -1,4 +1,4 @@
-const generateLightText = (tagName, color) => {
+const generateTextAnticolor = (tagName, color) => {
     const currentTag = document.querySelectorAll(`${tagName}`);
 
     for (let tag of currentTag) {
@@ -6,4 +6,4 @@ const generateLightText = (tagName, color) => {
     }
 };
 
-export { generateLightText };
+export { generateTextAnticolor };

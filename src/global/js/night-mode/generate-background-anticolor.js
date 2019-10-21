@@ -1,4 +1,4 @@
-const generateDarkBackground = (tagName, color) => {
+const generateBackgroundAnticolor = (tagName, color) => {
     const currentTag = document.querySelectorAll(`${tagName}`);
 
     for (let tag of currentTag) {
@@ -6,4 +6,4 @@ const generateDarkBackground = (tagName, color) => {
     }
 };
 
-export { generateDarkBackground };
+export { generateBackgroundAnticolor };
