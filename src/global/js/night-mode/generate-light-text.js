@@ -1,8 +1,8 @@
-const generateLightText = (tagName) => {
+const generateLightText = (tagName, color) => {
     const currentTag = document.querySelectorAll(`${tagName}`);
 
     for (let tag of currentTag) {
-        tag.style.color = 'white';
+        tag.style.color = color;
     }
 };
 

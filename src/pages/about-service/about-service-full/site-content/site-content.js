@@ -32,7 +32,6 @@ const SiteContent = () => {
                 </div>
                 <div className="description">
                     <Introduction />
-                    <button id="getScrollingHeight" className="btn mb-4">Получить высоту скроллинга</button>
                     <Concepts />
                     <Value />
                     <Direction />

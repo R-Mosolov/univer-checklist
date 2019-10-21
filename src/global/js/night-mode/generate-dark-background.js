@@ -1,8 +1,8 @@
-const generateDarkBackground = (tagName) => {
+const generateDarkBackground = (tagName, color) => {
     const currentTag = document.querySelectorAll(`${tagName}`);
 
     for (let tag of currentTag) {
-        tag.style.backgroundColor = 'rgba(0, 0, 0, 0.85)';
+        tag.style.backgroundColor = color;
     }
 };
 
