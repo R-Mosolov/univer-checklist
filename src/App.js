@@ -21,7 +21,7 @@ import QuestionBlockTwo from './pages/checklist/site-content/blocks/question-blo
 import QuestionBlockThree from './pages/checklist/site-content/blocks/question-block-3/question-block-3';
 import QuestionBlockFour from './pages/checklist/site-content/blocks/question-block-4/question-block-4';
 import QuestionBlockFive from './pages/checklist/site-content/blocks/question-block-5/question-block-5';
-import RecommendationPage from './pages/checklist/site-content/blocks/checklist-recommendations/recommendation-page/recommendation-page';
+import RecommendationsPage from './pages/checklist/site-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
                 <Route path="/checklist-block-3" component={QuestionBlockThree} />
                 <Route path="/checklist-block-4" component={QuestionBlockFour} />
                 <Route path="/checklist-block-5" component={QuestionBlockFive} />
-                <Route path="/recommendation-page" component={RecommendationPage} />
+                <Route path="/recommendation-page" component={RecommendationsPage} />
         </div>
     </Router>
   );

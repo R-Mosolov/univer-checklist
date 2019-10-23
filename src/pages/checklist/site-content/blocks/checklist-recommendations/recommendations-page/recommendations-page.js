@@ -6,14 +6,15 @@ import SiteHeader from '../../../../../../global/header/site-header';
 
 import generateWeight from '../generate-weight';
 import { generateRecommendations } from '../generate-recommendations/generate-recommendations';
+import '../download-recommendations';
 
-const RecommendationPage = () => {
+const RecommendationsPage = () => {
     return (
         <div className="recommendation-page">
             <SiteHeader/>
             <div className="layout-positioner">
                 <div className="recommendation-container p-5 rounded shadow">
-                    <h1 className="text-center mb-4">Список рекомендаций</h1>
+                    <h1 className="title text-center mb-4">Список рекомендаций</h1>
 
                     <p>По итогам теста Вами было набрано баллов: <i>{generateWeight()}</i>.</p>
 
@@ -25,12 +26,18 @@ const RecommendationPage = () => {
                     <h3 className="recommendations-title text-center">Список рекомендаций</h3>
                     <p className="get-recommendation">{generateRecommendations()}</p>
 
-                    <nav className="d-flex justify-content-center">
+                    <nav className="d-flex flex-column justify-content-center">
                         <Link
                             className="get-recommendation btn text-center"
                             to="/checklist-block-2">
                             Вернуться к тесту
                         </Link>
+                        <a className="text-center mt-2 text-secondary"
+                            download="University Checklist. Список рекомендаций.txt"
+                            href="#"
+                            id="link">
+                            Скачать рекомендации
+                        </a>
                     </nav>
                 </div>
             </div>
@@ -38,4 +45,4 @@ const RecommendationPage = () => {
     )
 };
 
-export default RecommendationPage;
+export default RecommendationsPage;

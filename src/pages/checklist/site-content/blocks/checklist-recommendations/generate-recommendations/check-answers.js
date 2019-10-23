@@ -1,4 +1,4 @@
-import allRecommendations from '../recommendation-page/data/all-recommendations';
+import allRecommendations from '../recommendations-page/data/all-recommendations';
 import $ from 'jquery';
 
 let recommendations = [];
