@@ -3,6 +3,8 @@ import React from 'react';
 import './css/desktop.css';
 import './css/tablet-and-mobile.css';
 
+import { saveInLocalStorage } from './js/save-in-local-storage';
+
 const SiteContent = () => {
     return (
         <div className="login">
@@ -14,11 +16,12 @@ const SiteContent = () => {
                             <label htmlFor="email">Email (электронная почта)</label>
                             <input
                                 type="email"
-                                className="form-control email"
+                                className="login__email form-control email"
                                 id="email"
                                 placeholder="email@example.com"
                                 minLength="9"
                                 maxLength="50"
+                                onChange={ saveInLocalStorage }
                                 required
                             />
                         </div>

@@ -10,5 +10,5 @@ window.onload = () => {
         `баллов, которые можно было набрать по итогам теста: 50. Список рекомендаций: ${generateRecommendations()}`],
         {type: 'text/plain'});
 
-    link.href = URL.createObjectURL(blob);
+    // link.href = URL.createObjectURL(blob);
 };
