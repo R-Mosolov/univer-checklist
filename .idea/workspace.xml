@@ -33,19 +33,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color/details" />
+      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color" />
+      <recent name="$PROJECT_DIR$/src/global/js/night-mode/backgrounds-color" />
+      <recent name="$PROJECT_DIR$/src/global/js" />
+      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/generate-recommendations" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-5" />
       <recent name="$PROJECT_DIR$/src/pages/about-service/about-service-full/site-content/js" />
       <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
       <recent name="$PROJECT_DIR$/src/global" />
       <recent name="$PROJECT_DIR$/src/pages/profile/site-content/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/global/js" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/generate-recommendations" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page/data" />
-      <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
-      <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/checklist-data/recommendation-page/css" />
     </key>
   </component>
   <component name="RunDashboard">
