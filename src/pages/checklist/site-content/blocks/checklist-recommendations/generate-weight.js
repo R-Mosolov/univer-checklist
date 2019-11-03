@@ -3,7 +3,6 @@ import $ from 'jquery';
 let checklistWeight = 0;
 
 const generateWeight = () => {
-
     const addWeight = () => checklistWeight += 1.5;
 
     if ($('#question-5__answer-2').is(':checked')) addWeight();

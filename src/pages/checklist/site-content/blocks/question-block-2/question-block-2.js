@@ -74,8 +74,7 @@ export default class QuestionBlockTwo extends Component {
                                               to="/checklist-block-3"
                                               onClick={() => {
                                                   generateWeight();
-                                                  generateRecommendations();}}
-                                              >
+                                                  generateRecommendations();}}>
                                             Следующий блок
                                         </Link>
                                     </li>

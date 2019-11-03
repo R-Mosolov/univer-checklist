@@ -14,7 +14,7 @@ const RecommendationsPage = () => {
             <SiteHeader/>
             <div className="layout-positioner">
                 <div className="recommendation-container p-5 rounded shadow">
-                    <h1 className="title text-center mb-4">Список рекомендаций</h1>
+                    <h2 className="title text-center mb-4">Количество баллов</h2>
 
                     <p>По итогам теста Вами было набрано баллов: <i>{generateWeight()}</i>.</p>
 
@@ -23,13 +23,12 @@ const RecommendationsPage = () => {
                         профессионального восприятия Вашей работы дипломной Комиссией. Максимальное количество условных
                         баллов, которые можно было набрать по итогам теста: 50.</p>
 
-                    <h3 className="recommendations-title text-center">Список рекомендаций</h3>
                     <p className="get-recommendation">{generateRecommendations()}</p>
 
                     <nav className="d-flex flex-column justify-content-center">
                         <Link
-                            className="get-recommendation btn text-center"
-                            to="/checklist-block-2">
+                            className="get-recommendation btn text-center mt-3"
+                            to="/checklist-block-5">
                             Вернуться к тесту
                         </Link>
                         <a className="text-center mt-2 text-secondary"

@@ -71,8 +71,7 @@ const QuestionBlockThree = () => {
                                           to="/checklist-block-4"
                                           onClick={() => {
                                               generateWeight();
-                                              generateRecommendations();}}
-                                          >
+                                              generateRecommendations();}}>
                                         Следующий блок
                                     </Link>
                                 </li>

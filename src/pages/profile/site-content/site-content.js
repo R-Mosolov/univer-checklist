@@ -20,26 +20,26 @@ const SiteContent = () => {
                                 <div className="card-background card col-5 border-0 shadow-sm" style={{backgroundColor: 'floralwhite'}}>
                                     <img src={Content} className="card-img-top p-3" alt="..." />
                                     <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
+                                        <h3 className="card-title">Результат 1-го тестирования</h3>
                                         <p className="card-text">
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Количество набранных баллов: 12<br/>
+                                            Число рекомендаций для улучшения: 10
                                         </p>
                                         <button className="btn">
-                                            Go somewhere
+                                            Посмотреть результат
                                         </button>
                                     </div>
                                 </div>
                                 <div className="card-background card col-5 border-0 shadow-sm" style={{backgroundColor: 'floralwhite'}}>
                                     <img src={Content} className="card-img-top p-3" alt="..." />
                                     <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
+                                        <h3 className="card-title">Результат 2-го тестирования</h3>
                                         <p className="card-text">
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Количество набранных баллов: 36<br/>
+                                            Число рекомендаций для улучшения: 3
                                         </p>
                                         <button className="btn">
-                                            Go somewhere
+                                            Посмотреть результат
                                         </button>
                                     </div>
                                 </div>

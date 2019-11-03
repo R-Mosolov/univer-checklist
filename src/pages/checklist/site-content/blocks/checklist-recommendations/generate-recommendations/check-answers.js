@@ -4,8 +4,6 @@ import $ from 'jquery';
 let recommendations = [];
 
 const checkAnswers = () => {
-    recommendations = [];
-
     const _addRecommendation = (n) => recommendations.push(allRecommendations[n]);
 
     if ($('#question-5__answer-1').is(':checked')) _addRecommendation(0);

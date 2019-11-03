@@ -5,8 +5,6 @@ import './css/desktop.css';
 
 import '../../css/style.css';
 import SiteHeader from '../../../../../global/header/site-header';
-import generateWeight from '../checklist-recommendations/generate-weight';
-import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 const QuestionBlockFive = () => {
     return (
@@ -58,11 +56,7 @@ const QuestionBlockFive = () => {
                         </ul>
                         <span className="get-recommendation mb-4 text-center">
                             <Link className="btn btn-block"
-                                  to="/recommendation-page/recommendation-page"
-                                  onClick={() => {
-                                      generateWeight();
-                                      generateRecommendations();}}
-                                  >
+                                  to="/recommendation-page/recommendation-page">
                                 Получить рекомендации
                             </Link>
                         </span>
