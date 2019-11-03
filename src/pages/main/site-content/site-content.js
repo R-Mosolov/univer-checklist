@@ -22,9 +22,9 @@ const SiteContent = () => {
                             квалификационных работ бакалавров и магистров.</p>
                         <div className="d-flex justify-content-center button-container">
                             <div className="button-position">
-                                <Link to="/registration">
+                                <Link to="/checklist-block-1">
                                     <button className="btn mt-2">
-                                        <Pen />Перейти к регистрации
+                                        <Pen />Перейти к чек-листу
                                     </button>
                                 </Link>
                             </div>

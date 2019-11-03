@@ -47,9 +47,13 @@ const SiteHeader = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/results">Результаты проверок</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/checklist-block-1">Проверить работу</Link>
-                        </li>
+                        <button className="main-action">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/checklist-block-1">
+                                    <span className="main-action__text">Проверить работу</span>
+                                </Link>
+                            </li>
+                        </button>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
                         <div className="mr-2 btn-group">
