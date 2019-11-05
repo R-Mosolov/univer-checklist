@@ -36,44 +36,68 @@ const QuestionBlockOne = () => {
 
                         <div className="form-group">
                             <p className="mt-4">1.1. На какой ступени обучения Вы находитесь?</p>
-                            <input type="radio" id="question-1__answer-1" name="question-1" /><span className="margin"/>
-                            <label htmlFor="question-1__answer-1">Бакалавр</label><br/>
-                            <input type="radio" id="question-1__answer-2" name="question-1"/><span className="margin"/>
-                            <label htmlFor="question-1__answer-2">Магистр</label><br/>
+                            <div className="d-flex">
+                                <div className="col p-0">
+                                    <input type="radio" id="question-1__answer-1" name="question-1" /><span className="margin"/>
+                                    <label htmlFor="question-1__answer-1">Бакалавр</label><br/>
+                                </div>
+                                <div className="col">
+                                    <input type="radio" id="question-1__answer-2" name="question-1"/><span className="margin"/>
+                                    <label htmlFor="question-1__answer-2">Магистр</label><br/>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="form-group">
                             <p className="mt-4">1.2. На каком курсе Вы учитесь?</p>
-                            <input type="radio" id="question-2__answer-1" name="question-2"/><span className="margin"/>
-                            <label htmlFor="question-2__answer-1">1-й (первый курс)</label><br/>
-                            <input type="radio" id="question-2__answer-2" name="question-2"/><span className="margin"/>
-                            <label htmlFor="question-2__answer-2">2-й (второй курс)</label><br/>
-                            <input type="radio" id="question-2__answer-3" name="question-2"/><span className="margin"/>
-                            <label htmlFor="question-2__answer-3">3-й (третий курс)</label><br/>
-                            <input type="radio" id="question-2__answer-4" name="question-2"/><span className="margin"/>
-                            <label htmlFor="question-2__answer-4">4-й (четвертый курс)</label><br/>
+                            <div className="d-flex">
+                                <div className="col p-0">
+                                    <input type="radio" id="question-2__answer-1" name="question-2"/><span className="margin"/>
+                                    <label htmlFor="question-2__answer-1">1</label><br/>
+                                    <input type="radio" id="question-2__answer-2" name="question-2"/><span className="margin"/>
+                                    <label htmlFor="question-2__answer-2">2</label><br/>
+                                </div>
+                                <div className="col">
+                                    <input type="radio" id="question-2__answer-3" name="question-2"/><span className="margin"/>
+                                    <label htmlFor="question-2__answer-3">3</label><br/>
+                                    <input type="radio" id="question-2__answer-4" name="question-2"/><span className="margin"/>
+                                    <label htmlFor="question-2__answer-4">4</label><br/>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="form-group">
-                            <p className="mt-4">1.3. Какую оценку Вы намерены получить на защите диплома?</p>
-                            <input type="radio" id="question-3__answer-1" name="question-3"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-1">«Отлично»</label><br/>
-                            <input type="radio" id="question-3__answer-2" name="question-3"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-2">«Четверку»</label><br/>
-                            <input type="radio" id="question-3__answer-3" name="question-3"/><span className="margin"/>
-                            <label htmlFor="question-3__answer-3">«Тройку»</label><br/>
+                            <p className="mt-4">1.3. Сколько баллов из 5 Вам достаточно на защите диплома?</p>
+                            <div className="d-flex">
+                                <div className="col p-0">
+                                    <input type="radio" id="question-3__answer-1" name="question-3"/><span className="margin"/>
+                                    <label htmlFor="question-3__answer-1">5</label><br/>
+                                    <input type="radio" id="question-3__answer-2" name="question-3"/><span className="margin"/>
+                                    <label htmlFor="question-3__answer-2">4</label><br/>
+                                </div>
+                                <div className="col">
+                                    <input type="radio" id="question-3__answer-3" name="question-3"/><span className="margin"/>
+                                    <label htmlFor="question-3__answer-3">3</label><br/>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="form-group">
                             <p className="mt-4">1.4. На какой месяц назначена защита работы?</p>
-                            <input type="radio" id="question-4__answer-1" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-4__answer-1">Январь-март</label><br/>
-                            <input type="radio" id="question-4__answer-2" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-4__answer-2">Апрель-июнь</label><br/>
-                            <input type="radio" id="question-4__answer-3" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-4__answer-3">Июль-сентябрь</label><br/>
-                            <input type="radio" id="question-4__answer-4" name="question-4"/><span className="margin"/>
-                            <label htmlFor="question-4__answer-4">Октябрь-декабрь</label><br/>
+                            <div className="d-flex">
+                                <div className="col p-0">
+                                    <input type="radio" id="question-4__answer-1" name="question-4"/><span className="margin"/>
+                                    <label htmlFor="question-4__answer-1">Январь-март</label><br/>
+                                    <input type="radio" id="question-4__answer-2" name="question-4"/><span className="margin"/>
+                                    <label htmlFor="question-4__answer-2">Апрель-июнь</label><br/>
+                                </div>
+                                <div className="col">
+                                    <input type="radio" id="question-4__answer-3" name="question-4"/><span className="margin"/>
+                                    <label htmlFor="question-4__answer-3">Июль-сентябрь</label><br/>
+                                    <input type="radio" id="question-4__answer-4" name="question-4"/><span className="margin"/>
+                                    <label htmlFor="question-4__answer-4">Октябрь-декабрь</label><br/>
+                                </div>
+                            </div>
                         </div>
 
                         <nav className="mt-4" aria-label="Page navigation example">
