@@ -7,7 +7,7 @@ import './global/css/style.css';
 
 import './global/js/create-citation';
 import './global/js/night-mode/run-night-mode';
-import './global/error-handler/404-not-found';
+import './global/errors-handler/404-not-found/handler';
 
 import Main from './pages/main/main';
 import Registration from './pages/registration/registration';
@@ -23,6 +23,8 @@ import QuestionBlockThree from './pages/checklist/site-content/blocks/question-b
 import QuestionBlockFour from './pages/checklist/site-content/blocks/question-block-4/question-block-4';
 import QuestionBlockFive from './pages/checklist/site-content/blocks/question-block-5/question-block-5';
 import RecommendationsPage from './pages/checklist/site-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
+
+import HandlerPage from './global/errors-handler/404-not-found/handler-page/handler-page';
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
                 <Route path="/checklist-block-4" component={QuestionBlockFour} />
                 <Route path="/checklist-block-5" component={QuestionBlockFive} />
                 <Route path="/recommendation-page" component={RecommendationsPage} />
+            <Route path="/404-not-found" component={HandlerPage} />
         </div>
     </Router>
   );

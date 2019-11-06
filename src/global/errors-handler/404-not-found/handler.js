@@ -1,9 +1,11 @@
+import React from 'react';
+
 notFound404();
 
 async function notFound404() {
-    const allPagesPaths = ['/', '/registration', '/login', '/about-service-base', '/about-service-full', '/profile', '/results',
+    const allPagesPaths = ['/', '/registration', '/login', '/about-service-base', '/about-service-full', '/profile', '/handler-page',
         '/checklist-block-1', '/checklist-block-2', '/checklist-block-3', '/checklist-block-4', '/checklist-block-5',
-        '/recommendation-page/recommendations-page'];
+        '/recommendation-page/recommendations-page', '/404-not-found'];
     const currentPage = document.location.pathname;
     let isNonExistentPage = true;
 
@@ -14,6 +16,6 @@ async function notFound404() {
     }
 
     if (isNonExistentPage === true) {
-        alert('Приносим извинения: такой страницы не существует.');
+        document.location.pathname = '/404-not-found';
     }
 }

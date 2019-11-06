@@ -1,23 +1,23 @@
-.results {
+.not-found {
     height: calc(100vh - 55px);
 }
 
-.results .layout-positioner {
+.not-found .layout-positioner {
     margin-left: auto;
     margin-right: auto;
     width: 500px;
 }
 
-.results .banner__container {
+.not-found .banner__container {
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
 }
 
-.results .d-flex {
+.not-found .d-flex {
     height: 80vh;
 }
 
-.results p {
+.not-found p {
     margin-bottom: 35px;
 }
