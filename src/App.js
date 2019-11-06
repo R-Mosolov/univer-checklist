@@ -7,6 +7,7 @@ import './global/css/style.css';
 
 import './global/js/create-citation';
 import './global/js/night-mode/run-night-mode';
+import './global/error-handler/404-not-found';
 
 import Main from './pages/main/main';
 import Registration from './pages/registration/registration';
