@@ -1,13 +1,13 @@
 import React from 'react';
 import SiteHeader from '../../../global/header/site-header';
-import SiteContent from './site-content/site-content';
+import PageContent from './page-content/page-content';
 
 class AboutServiceFull extends React.Component {
     render() {
         return (
             <div>
                 <SiteHeader />
-                <SiteContent />
+                <PageContent />
             </div>
         );
     }

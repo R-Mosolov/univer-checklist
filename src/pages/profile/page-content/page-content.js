@@ -3,7 +3,7 @@ import React from "react";
 import User from "./img/user.svg";
 import Content from "./img/content.svg";
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="profile">
             <div className="container-fluid">
@@ -52,4 +52,4 @@ const SiteContent = () => {
     );
 };
 
-export default SiteContent;
+export default PageContent;

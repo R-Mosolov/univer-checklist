@@ -4,9 +4,9 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import { ReactComponent as Pen } from "../../main/site-content/img/pen.svg";
+import { ReactComponent as Pen } from "../../main/page-content/img/pen.svg";
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="registration">
             <div className="banner">
@@ -130,4 +130,4 @@ const SiteContent = () => {
     )
 };
 
-export default SiteContent;
+export default PageContent;

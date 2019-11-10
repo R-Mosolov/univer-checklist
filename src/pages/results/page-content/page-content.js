@@ -5,7 +5,7 @@ import './css/tablet-and-mobile.css';
 
 import { ReactComponent as Banner } from './img/development.svg';
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="results">
             <div className="layout-positioner">
@@ -26,4 +26,4 @@ const SiteContent = () => {
     )
 };
 
-export default SiteContent;
+export default PageContent;

@@ -11,7 +11,7 @@ import Value from './blocks/value/value';
 import Direction from './blocks/direction/direction';
 import FootnoteLiterature from './blocks/footnote-literature';
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="about-service-full" id="about-service-full">
             <div className="progress" id="progress">
@@ -42,4 +42,4 @@ const SiteContent = () => {
     )
 };
 
-export default SiteContent;
+export default PageContent;

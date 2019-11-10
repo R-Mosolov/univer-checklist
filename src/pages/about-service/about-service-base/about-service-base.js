@@ -1,6 +1,6 @@
 import React from 'react';
 import SiteHeader from '../../../global/header/site-header';
-import SiteContent from './site-content/site-content';
+import PageContent from './page-content/page-content';
 
 
 class AboutServiseBase extends React.Component {
@@ -8,7 +8,7 @@ class AboutServiseBase extends React.Component {
         return (
             <div className="page">
                 <SiteHeader />
-                <SiteContent />
+                <PageContent />
             </div>
         );
     }

@@ -5,10 +5,10 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import Background from '../site-content/img/library.jpg';
-import { ReactComponent as Pen } from '../site-content/img/pen.svg';
+import Background from './/img/library.jpg';
+import { ReactComponent as Pen } from './/img/pen.svg';
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="main">
             <div className="d-flex">
@@ -36,4 +36,4 @@ const SiteContent = () => {
     )
 };
 
-export default SiteContent;
+export default PageContent;

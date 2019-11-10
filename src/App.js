@@ -17,12 +17,12 @@ import AboutServiceFull from './pages/about-service/about-service-full/about-ser
 import Profile from './pages/profile/profile';
 import Results from './pages/results/results';
 
-import QuestionBlockOne from './pages/checklist/site-content/blocks/question-block-1/question-block-1';
-import QuestionBlockTwo from './pages/checklist/site-content/blocks/question-block-2/question-block-2';
-import QuestionBlockThree from './pages/checklist/site-content/blocks/question-block-3/question-block-3';
-import QuestionBlockFour from './pages/checklist/site-content/blocks/question-block-4/question-block-4';
-import QuestionBlockFive from './pages/checklist/site-content/blocks/question-block-5/question-block-5';
-import RecommendationsPage from './pages/checklist/site-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
+import QuestionBlockOne from './pages/checklist/page-content/blocks/question-block-1/question-block-1';
+import QuestionBlockTwo from './pages/checklist/page-content/blocks/question-block-2/question-block-2';
+import QuestionBlockThree from './pages/checklist/page-content/blocks/question-block-3/question-block-3';
+import QuestionBlockFour from './pages/checklist/page-content/blocks/question-block-4/question-block-4';
+import QuestionBlockFive from './pages/checklist/page-content/blocks/question-block-5/question-block-5';
+import RecommendationsPage from './pages/checklist/page-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
 
 import HandlerPage from './global/js/errors-handler/404-not-found/handler-page/handler-page';
 

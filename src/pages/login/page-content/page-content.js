@@ -5,7 +5,7 @@ import './css/tablet-and-mobile.css';
 
 import { saveInLocalStorage } from './js/save-in-local-storage';
 
-const SiteContent = () => {
+const PageContent = () => {
     return (
         <div className="login">
             <div className="container__position d-flex justify-content-center align-items-center">
@@ -55,4 +55,4 @@ const SiteContent = () => {
     )
 };
 
-export default SiteContent;
+export default PageContent;
