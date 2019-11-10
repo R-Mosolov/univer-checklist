@@ -6,6 +6,8 @@ import './css/mobile.css';
 
 import { ReactComponent as Pen } from '../../main/page-content/img/pen.svg';
 
+import validateRegistrationForm from './js/validation/app';
+
 const PageContent = () => {
     return (
         <div className="registration">
@@ -15,7 +17,7 @@ const PageContent = () => {
             <div className="page-background">
                 <div className="layout-positioner">
                     <form className="px-4 py-3">
-                        <div className="form-group mt-4">
+                        <div className="last-name form-group mt-4">
                             <label htmlFor="last-name">Фамилия</label>
                             <input
                                 type="text"
@@ -117,7 +119,7 @@ const PageContent = () => {
                             </div>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <button type="submit" className="btn btn-block mt-3">
+                            <button type="submit" className="btn btn-block mt-3" onClick={validateRegistrationForm}>
                                 <Pen />Зарегистрироваться
                             </button>
                         </div>
