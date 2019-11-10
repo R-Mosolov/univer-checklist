@@ -8,9 +8,17 @@ function validateLastName() {
     // Checking repeated helpField
     if (lastNameContainer.childElementCount < 3) {
         if (lastNameValue.length < 2 || lastNameValue.length > 30) {
+            if (lastNameContainer.childElementCount > 2) {
+                document.querySelector('.last-name .help-field').className = 'd-none';
+            }
+
             helpField.innerHTML = 'Фамилия должна содержать от 2 до 30 букв.';
             lastNameContainer.appendChild(helpField);
         }
+    }
+
+    if (lastNameContainer.childElementCount > 3 && (lastNameValue.length < 2 || lastNameValue.length > 30)) {
+        document.querySelector('.last-name .help-field').className = 'd-none';
     }
 
     // Checking symbols count

@@ -33,19 +33,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/registration/page-content/js/validation" />
-      <recent name="$PROJECT_DIR$/src/global/js" />
-      <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found" />
-      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color/details" />
-      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found/handler-page/site-content/img" />
       <recent name="$PROJECT_DIR$/src/global/errors-handler" />
       <recent name="$PROJECT_DIR$/src/pages/checklist/site-content/blocks/question-block-5" />
       <recent name="$PROJECT_DIR$/src/pages/about-service/about-service-full/site-content/js" />
       <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/pages/registration/page-content/js/validation/last-name" />
+      <recent name="$PROJECT_DIR$/src/pages/registration/page-content/js/validation" />
+      <recent name="$PROJECT_DIR$/src/global/js" />
+      <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found" />
+      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color/details" />
     </key>
   </component>
   <component name="RunDashboard">

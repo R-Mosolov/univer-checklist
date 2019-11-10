@@ -6,7 +6,7 @@ import './css/mobile.css';
 
 import { ReactComponent as Pen } from '../../main/page-content/img/pen.svg';
 
-import validateRegistrationForm from './js/validation/app';
+import validateRegistrationForm from './js/validation';
 
 const PageContent = () => {
     return (
