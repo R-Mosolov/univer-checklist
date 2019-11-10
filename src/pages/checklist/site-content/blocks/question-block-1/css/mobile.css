@@ -1,5 +1,9 @@
 @media (min-width: 320px) and (max-width: 414px) {
-    .d-flex {
+    .checklist-block-1 {
+        height: auto;
+    }
+
+    .checklist-block-1 .d-flex {
         flex-direction: column;
     }
 
@@ -9,8 +13,12 @@
 
     .checklist-block-1 .portrait {
         position: static;
-        margin: 30px auto 0 auto;
+        margin: -20px auto -40px auto;
         padding: 0;
+    }
+
+    .checklist-block-1 .portrait-container {
+        padding-bottom: 20px;
     }
 
     .checklist-block-1 .img-container {
@@ -20,7 +28,7 @@
 
     .checklist-block-1 img {
         height: auto;
-        max-width: 80%;
+        width: 80vw;
     }
 
     .checklist-block-1 .portrait-name,
@@ -36,19 +44,21 @@
 
     .checklist-block-1 .portrait-description {
         margin-top: 10px;
-        margin-bottom: 30px;
     }
 
     .checklist-block-1 .form-container {
-        width: 100%;
+        margin-top: 0;
         background-color: white;
+    }
+
+    .checklist-block-1 .form {
+        width: 100vw;
     }
 
     .checklist-block-1 .mobile-break {
         display: block;
     }
 
-    .checklist-block-1 h1,
     .checklist-block-1 h2 {
         text-align: center;
     }

@@ -18,7 +18,7 @@ const QuestionBlockOne = () => {
             <div className="d-flex">
                 <div className="portrait d-flex justify-content-center align-items-center">
                     <div className="portrait-container">
-                        <div className="img-container">
+                        <div className="img-container d-flex justify-content-center">
                             <img src={Lomonosov} alt="Портрет М.В. Ломоносова" />
                         </div>
                         <h3 className="portrait-name mt-3 text-center">Михаил Васильевич <br className="mobile-break"/>Ломоносов</h3>
@@ -28,8 +28,8 @@ const QuestionBlockOne = () => {
                         <div className="wrapper"/>
                     </div>
                 </div>
-                <div className="form-container layout-positioner">
-                    <form className="px-4 py-3">
+                <div className="d-flex justify-content-center align-items-center">
+                    <form className="form form-container px-4 py-3">
                         <h1 className="mt-4">Проверка ВКР</h1>
 
                         <h2 className="mt-4">1. Уточняющие вопросы</h2>
@@ -41,7 +41,7 @@ const QuestionBlockOne = () => {
                                     <input type="radio" id="question-1__answer-1" name="question-1" /><span className="margin"/>
                                     <label htmlFor="question-1__answer-1">Бакалавр</label><br/>
                                 </div>
-                                <div className="col">
+                                <div className="col p-0">
                                     <input type="radio" id="question-1__answer-2" name="question-1"/><span className="margin"/>
                                     <label htmlFor="question-1__answer-2">Магистр</label><br/>
                                 </div>
@@ -57,7 +57,7 @@ const QuestionBlockOne = () => {
                                     <input type="radio" id="question-2__answer-2" name="question-2"/><span className="margin"/>
                                     <label htmlFor="question-2__answer-2">2</label><br/>
                                 </div>
-                                <div className="col">
+                                <div className="col p-0">
                                     <input type="radio" id="question-2__answer-3" name="question-2"/><span className="margin"/>
                                     <label htmlFor="question-2__answer-3">3</label><br/>
                                     <input type="radio" id="question-2__answer-4" name="question-2"/><span className="margin"/>
@@ -75,7 +75,7 @@ const QuestionBlockOne = () => {
                                     <input type="radio" id="question-3__answer-2" name="question-3"/><span className="margin"/>
                                     <label htmlFor="question-3__answer-2">4</label><br/>
                                 </div>
-                                <div className="col">
+                                <div className="col p-0">
                                     <input type="radio" id="question-3__answer-3" name="question-3"/><span className="margin"/>
                                     <label htmlFor="question-3__answer-3">3</label><br/>
                                 </div>
@@ -91,7 +91,7 @@ const QuestionBlockOne = () => {
                                     <input type="radio" id="question-4__answer-2" name="question-4"/><span className="margin"/>
                                     <label htmlFor="question-4__answer-2">Апрель-июнь</label><br/>
                                 </div>
-                                <div className="col">
+                                <div className="col p-0">
                                     <input type="radio" id="question-4__answer-3" name="question-4"/><span className="margin"/>
                                     <label htmlFor="question-4__answer-3">Июль-сентябрь</label><br/>
                                     <input type="radio" id="question-4__answer-4" name="question-4"/><span className="margin"/>

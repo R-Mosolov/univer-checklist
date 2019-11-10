@@ -19,7 +19,7 @@ export default class QuestionBlockTwo extends Component {
                 <div className="d-flex">
                     <div className="portrait d-flex justify-content-center align-items-center">
                         <div className="portrait-container">
-                            <div className="img-container">
+                            <div className="img-container d-flex justify-content-center">
                                 <img src={Ciolkovskii} alt="Портрет К.Э. Циолковского" />
                             </div>
                             <h3 className="portrait-name mt-3 text-center">
@@ -31,8 +31,8 @@ export default class QuestionBlockTwo extends Component {
                             <div className="wrapper"/>
                         </div>
                     </div>
-                    <div className="form-container d-flex justify-content-center align-items-center">
-                        <form className="form px-4 py-3">
+                    <div className="d-flex justify-content-center align-items-center">
+                        <form className="form form-container px-4 py-3">
                             <h2>2. Общее оформление работы</h2>
 
                             <div className="form-group">

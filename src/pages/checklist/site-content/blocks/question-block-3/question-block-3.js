@@ -28,8 +28,8 @@ const QuestionBlockThree = () => {
                         <div className="wrapper"/>
                     </div>
                 </div>
-                <div className="form-container d-flex align-items-center">
-                    <form className="form px-4 py-3">
+                <div className="d-flex align-items-center">
+                    <form className="form form-container px-4 py-3">
 
                         <h2>3. Титульный лист</h2>
 

@@ -1,27 +1,19 @@
-.checklist-block-1 .portrait {
-    position: fixed;
-    margin-left: 12vw;
-    margin-top: 12vh;
-}
-
-.checklist-block-1 img {
-    height: 450px;
-    width: auto;
-    object-fit: cover;
-    z-index: 2;
+.checklist-block-1 {
+    height: 100%;
 }
 
 .checklist-block-1 .form-container {
     width: 550px;
 }
 
-.checklist-block-1 h1,
-.checklist-block-1 h2 {
-    color: rgba(0, 0, 0, 0.66);
+.checklist-block-1 .portrait {
+    width: 50vw;
+    height: calc(100vh - 55px);
 }
 
-.checklist-block-1 .portrait-container {
-    z-index: 2;
+.checklist-block-1 img {
+    height: 450px;
+    width: auto;
 }
 
 .checklist-block-1 h3 {
@@ -33,10 +25,9 @@
     display: none;
 }
 
-.checklist-block-1 .layout-positioner {
-    margin-left: 50vw;
-}
 
-.checklist-block-1 .hidden {
-    display: none;
+@media (max-height: 826px) {
+    .checklist-block-2 {
+        height: 100%;
+    }
 }

@@ -7,7 +7,7 @@ import './global/css/style.css';
 
 import './global/js/create-citation';
 import './global/js/night-mode/run-night-mode';
-import './global/errors-handler/404-not-found/handler';
+import './global/js/errors-handler/404-not-found/handler';
 
 import Main from './pages/main/main';
 import Registration from './pages/registration/registration';
@@ -24,7 +24,7 @@ import QuestionBlockFour from './pages/checklist/site-content/blocks/question-bl
 import QuestionBlockFive from './pages/checklist/site-content/blocks/question-block-5/question-block-5';
 import RecommendationsPage from './pages/checklist/site-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
 
-import HandlerPage from './global/errors-handler/404-not-found/handler-page/handler-page';
+import HandlerPage from './global/js/errors-handler/404-not-found/handler-page/handler-page';
 
 function App() {
   return (
