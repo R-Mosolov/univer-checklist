@@ -4,7 +4,7 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import { ReactComponent as Pen } from "../../main/page-content/img/pen.svg";
+import { ReactComponent as Pen } from '../../main/page-content/img/pen.svg';
 
 const PageContent = () => {
     return (
