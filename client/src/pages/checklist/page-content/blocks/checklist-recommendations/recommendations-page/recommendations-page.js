@@ -27,25 +27,21 @@ const RecommendationsPage = () => {
                     <p className="get-recommendation">{generateRecommendations()}</p>
 
                     <nav className="d-flex flex-column justify-content-center">
+                        <a className="text-center mt-2 btn"
+                            href="/recommendations/recommendations.txt"
+                            download>
+                            Скачать файл в TXT-формате (Блокнот)
+                        </a>
+                        <a className="text-center mt-2 btn"
+                            href="/recommendations/recommendations.csv"
+                            download>
+                            Скачать файл в CSV-формате (Эксель)
+                        </a>
                         <Link
-                            className="get-recommendation btn text-center mt-3"
+                            className="get-recommendation btn text-center mt-4"
                             to="/checklist-block-5">
                             Вернуться к тесту
                         </Link>
-                        <a className="text-center mt-2 text-secondary"
-                            onClick={() => {
-                                var blob = new Blob(
-                                    ['text'],
-                                    {
-                                        type : "text/plain;charset=utf-8"
-                                    }
-                                );
-                                var downloadUrl = URL.createObjectURL( blob );
-                                document.getElementById('link').setAttribute( "href", downloadUrl );
-                            }}
-                            id="link">
-                            Скачать файл
-                        </a>
                     </nav>
                 </div>
             </div>
