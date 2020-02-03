@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5e604f-f4c9-4a28-8530-f130657db8dc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +16,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1P40RxX6GmPBJc9AefXHOmycw6F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML&#10;JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -33,6 +38,13 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/accesses" />
+      <recent name="$PROJECT_DIR$/frontend/src/pages/registration/page-content/js/validation/last-name" />
+      <recent name="$PROJECT_DIR$/src/pages/registration/page-content/js/validation" />
+      <recent name="$PROJECT_DIR$/src/global/js" />
+      <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found/handler-page/site-content/img" />
       <recent name="$PROJECT_DIR$/src/global/errors-handler" />
@@ -40,27 +52,38 @@
       <recent name="$PROJECT_DIR$/src/pages/about-service/about-service-full/site-content/js" />
       <recent name="$PROJECT_DIR$/src/global/js/night-mode" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/pages/registration/page-content/js/validation/last-name" />
-      <recent name="$PROJECT_DIR$/src/pages/registration/page-content/js/validation" />
-      <recent name="$PROJECT_DIR$/src/global/js" />
-      <recent name="$PROJECT_DIR$/src/global/errors-handler/404-not-found" />
-      <recent name="$PROJECT_DIR$/src/global/js/night-mode/texts-color/details" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1580743903172">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580743903172" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1580743903167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580743903167" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1580743903166">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580743903166" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1580743903169">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580743903169" />
   </component>
 </project>
