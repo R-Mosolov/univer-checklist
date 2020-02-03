@@ -10,6 +10,7 @@
     "bootstrap": "~4.3.1",
     "bootswatch": "~4.3.1",
     "brfs": "~2.0.2",
+    "browserify-fs": "~1.0.0",
     "canvasjs": "~1.8.1",
     "fs": "~0.0.1-security",
     "jquery": "~3.4.1",

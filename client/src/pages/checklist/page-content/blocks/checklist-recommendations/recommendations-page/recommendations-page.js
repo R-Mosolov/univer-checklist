@@ -7,7 +7,7 @@ import SiteHeader from '../../../../../../global/header/site-header';
 
 import generateWeight from '../generate-weight';
 import { generateRecommendations } from '../generate-recommendations/generate-recommendations';
-import '../download-recommendations';
+import { createRecommendationsFile } from '../create-recommendations-file';
 
 const RecommendationsPage = () => {
     return (
@@ -28,12 +28,13 @@ const RecommendationsPage = () => {
 
                     <nav className="d-flex flex-column justify-content-center">
                         <a className="text-center mt-2 btn"
-                            href="/recommendations/recommendations.txt"
+                            onClick={createRecommendationsFile}
+                            href="/recommendations/test-recommendations.txt"
                             download>
                             Скачать файл в TXT-формате (Блокнот)
                         </a>
                         <a className="text-center mt-2 btn"
-                            href="/recommendations/recommendations.csv"
+                            href="~/recommendations.csv"
                             download>
                             Скачать файл в CSV-формате (Эксель)
                         </a>
