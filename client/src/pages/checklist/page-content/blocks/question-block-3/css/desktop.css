@@ -1,0 +1,33 @@
+.checklist-block-3 {
+    height: 100%;
+}
+
+.checklist-block-3 .form-container {
+    width: 550px;
+}
+
+.checklist-block-3 .portrait {
+    width: 50vw;
+    height: calc(100vh - 55px);
+}
+
+.checklist-block-3 img {
+    height: 450px;
+    width: 334px;
+}
+
+.checklist-block-3 h3 {
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.checklist-block-3 .mobile-break {
+    display: none;
+}
+
+
+@media (max-height: 826px) {
+    .checklist-block-3 {
+        height: 100%;
+    }
+}

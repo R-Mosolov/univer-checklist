@@ -1,0 +1,16 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .about-service-full .layout-positioner {
+        min-width: 100%;
+        padding: 0 1.5%;
+        width: auto;
+    }
+
+    .about-service-full h1 {
+        font-size: 1.8em;
+    }
+
+    .about-service-full .banner__books {
+        height: 250px;
+        width: 250px;
+    }
+}

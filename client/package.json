@@ -1,0 +1,46 @@
+{
+  "name": "univer-checklist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "~1.6.3",
+    "@react-pdf/styled-components": "~1.4.0",
+    "animejs": "~3.0.1",
+    "blob-stream": "~0.1.3",
+    "bootstrap": "~4.3.1",
+    "bootswatch": "~4.3.1",
+    "brfs": "~2.0.2",
+    "canvasjs": "~1.8.1",
+    "fs": "~0.0.1-security",
+    "jquery": "~3.4.1",
+    "jquery-validation": "~1.19.1",
+    "pdf": "~0.1.0",
+    "pdfkit": "~0.10.0",
+    "react": "~16.8.6",
+    "react-dom": "~16.8.6",
+    "react-router": "~5.0.1",
+    "react-router-dom": "~5.0.1",
+    "react-scripts": "~3.2.0"
+  },
+  "scripts": {
+    "start": "../client/node_modules/.bin/react-scripts start",
+    "build": "../client/node_modules/.bin/react-scripts build",
+    "test": "../client/node_modules/.bin/react-scripts test",
+    "eject": "../client/node_modules/.bin/react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
