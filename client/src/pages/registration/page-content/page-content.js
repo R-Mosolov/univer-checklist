@@ -124,8 +124,6 @@ const PageContent = () => {
                             </button>
                         </div>
                     </form>
-                    <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="#">Забыли пароль?</a>
                 </div>
             </div>
         </div>

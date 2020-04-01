@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './css/desktop.css';
 import './css/tablet-and-mobile.css';
@@ -48,7 +49,10 @@ const PageContent = () => {
                         <button type="submit" className="login__button btn btn-block">Войти</button>
                     </form>
                     <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="#">Забыли пароль?</a>
+                    <Link to="/login">
+                        <a className="dropdown-item" href="/" onClick={() => alert('В настоящее время данная функция ' +
+                            'не работает. Вернитесь к ней, пожалуйста, позднее.')}>Забыли пароль?</a>
+                    </Link>
                 </div>
             </div>
         </div>

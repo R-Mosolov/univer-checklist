@@ -1,5 +1,3 @@
-import React from 'react';
-
 notFound404();
 
 async function notFound404() {

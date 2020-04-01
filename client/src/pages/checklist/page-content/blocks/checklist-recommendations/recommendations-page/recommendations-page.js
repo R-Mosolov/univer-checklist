@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
 
 import './css/style.css';
 import SiteHeader from '../../../../../../global/header/site-header';

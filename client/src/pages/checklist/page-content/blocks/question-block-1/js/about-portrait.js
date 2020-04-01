@@ -2,7 +2,7 @@ import $ from 'jquery';
 import anime from 'animejs';
 
 $(document).ready(function() {
-    const wrapperEl = document.querySelector('.wrapper');
+    // const wrapperEl = document.querySelector('.wrapper');
     const numberOfEls = 90;
     const duration = 6000;
     const delay = duration / numberOfEls;

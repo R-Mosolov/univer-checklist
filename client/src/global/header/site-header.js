@@ -34,8 +34,10 @@ const SiteHeader = () => {
                             <Link className="nav-link" to="/login">Войти</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">О сервисе</a>
+                            <Link className="about-service-entrypoint m-0 p-0" to="/about-service-base">
+                                <a className="nav-link dropdown-toggle" href="/about-service-base" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">О сервисе</a>
+                            </Link>
                             <div className="dropdown-menu">
                                 <Link className="dropdown-item" to="/about-service-base">Кратко</Link>
                                 <Link className="dropdown-item" to="/about-service-full">Подробно</Link>

@@ -31,7 +31,7 @@ const FootnoteLiterature = () => {
             </p>
             <p className="mt-3 mb-0 text-justify">
                 3. Открытая база выпускных квалификационных работ студентов НИУ ВШЭ // URL:
-                <a href="https://www.hse.ru/edu/vkr/" target="_blank">https://www.hse.ru/edu/vkr/</a> (дата обращения: 29.05.2019).
+                <a href="https://www.hse.ru/edu/vkr/" rel="noopener noreferrer">https://www.hse.ru/edu/vkr/</a> (дата обращения: 29.05.2019).
             </p>
             <p className="mt-3 mb-0 text-justify">
                 4. Регламент о балльно-рейтинговой системе оценки знаний обучающихся в федеральном государственном
@@ -42,7 +42,7 @@ const FootnoteLiterature = () => {
             <p className="last-paragraph mt-3 pb-5 text-justify">
                 5. GfK. Проникновение Интернета в России (пресс-релиз) [Электронный ресурс] // URL: <a
                 href="https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_Penetration_in_Russia_2017-2018.pdf"
-                target="_blank">https://www.gfk.com/fileadmin/user_upload/dyna_<br/>content/RU/Documents/Press_Releases/2018
+                rel="noopener noreferrer">https://www.gfk.com/fileadmin/user_upload/dyna_<br/>content/RU/Documents/Press_Releases/2018
                 /GfK_Rus_Press_Release_Internet_Penetration<br/>_in_Russia_2017-2018.pdf</a> (дата обращения: 30.05.2019).
             </p>
         </div>

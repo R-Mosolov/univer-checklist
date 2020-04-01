@@ -5,8 +5,8 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import Background from './/img/library.jpg';
-import { ReactComponent as Pen } from './/img/pen.svg';
+import Background from './img/library.jpg';
+import { ReactComponent as Pen } from './img/pen.svg';
 
 const PageContent = () => {
     return (

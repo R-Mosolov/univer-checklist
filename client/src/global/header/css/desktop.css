@@ -2,6 +2,10 @@
     background-color: floralwhite;
 }
 
+.site-header .about-service-entrypoint:hover {
+    text-decoration: none;
+}
+
 .site-header .dropdown-menu {
     background-color: floralwhite;
 }

@@ -1,15 +1,15 @@
 import { generateBackgroundColor } from './generate-background-color';
 
-const generateBackgroundsColor = (color) => {
+const generateBackgroundsColor = function(color: string) {
     const generateBackgroundsColorInArray = () => {
-        const _allDocumentBackgrounds = ['.App', '.site-header', '.site-header .dropdown-menu', '.card-background'];
+        const _allDocumentBackgrounds: string [] = ['.App', '.site-header', '.site-header .dropdown-menu', '.card-background'];
 
         for (let tag of _allDocumentBackgrounds) {
             generateBackgroundColor(`${tag}`, `${color}`);
         }
     };
 
-    generateBackgroundsColorInArray();
+    return generateBackgroundsColorInArray();
 };
 
 export { generateBackgroundsColor };
