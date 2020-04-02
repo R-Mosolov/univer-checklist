@@ -7,14 +7,12 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import SiteHeader from '../../../../../global/header/site-header';
 import Lomonosov from './img/Lomonosov.png';
 import './js/about-portrait';
 
 const QuestionBlockOne = () => {
     return (
         <div className="checklist checklist-block-1">
-            <SiteHeader />
             <div className="d-flex">
                 <div className="portrait d-flex justify-content-center align-items-center">
                     <div className="portrait-container">

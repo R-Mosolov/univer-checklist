@@ -7,7 +7,7 @@ import './global/css/style.css';
 
 import './global/js/create-citation';
 import './global/js/night-mode/run-night-mode';
-import './global/js/errors-handler/404-not-found/handler';
+import './global/js/errors-handler/404-not-found/define-page-existence';
 
 import Main from './pages/main/main';
 import Registration from './pages/registration/registration';
@@ -24,14 +24,18 @@ import QuestionBlockFour from './pages/checklist/page-content/blocks/question-bl
 import QuestionBlockFive from './pages/checklist/page-content/blocks/question-block-5/question-block-5';
 import RecommendationsPage from './pages/checklist/page-content/blocks/checklist-recommendations/recommendations-page/recommendations-page';
 
+import definePageExistence from './global/js/errors-handler/404-not-found/define-page-existence';
 import HandlerPage from './global/js/errors-handler/404-not-found/handler-page/handler-page';
+import SiteHeader from "./global/header/site-header";
 
 function App() {
   return (
     <Router>
-        <div className="App">
+        <div className="App" onLoad={definePageExistence()}>
+            <SiteHeader />
+
             <Route path="/" exact component={Main} />
-            <Route path="/registration" exact component={Registration} />
+            <Route path="/registration" component={Registration} />
             <Route path="/login" component={Login} />
             <Route path="/about-service-base" component={AboutServiceBase} />
             <Route path="/about-service-full" component={AboutServiceFull} />

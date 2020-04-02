@@ -5,7 +5,6 @@ import './css/desktop.css';
 import './css/tablet.css';
 import './css/mobile.css';
 
-import SiteHeader from '../../../../../global/header/site-header';
 import Ciolkovskii from './img/Ciolkovskii.png';
 import './js/portrait-animation';
 import generateWeight from '../checklist-recommendations/generate-weight';
@@ -15,7 +14,6 @@ export default class QuestionBlockTwo extends Component {
     render() {
         return (
             <div className="checklist checklist-block-2">
-                <SiteHeader />
                 <div className="d-flex">
                     <div className="portrait d-flex justify-content-center align-items-center">
                         <div className="portrait-container">

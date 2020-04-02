@@ -6,7 +6,6 @@ import './css/tablet.css';
 import './css/mobile.css';
 
 import '../../css/style.css';
-import SiteHeader from '../../../../../global/header/site-header';
 import Mendeleev from './img/Mendeleev.png';
 import generateWeight from '../checklist-recommendations/generate-weight';
 import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
@@ -14,7 +13,6 @@ import { generateRecommendations } from '../checklist-recommendations/generate-r
 const QuestionBlockThree = () => {
     return (
         <div className="checklist checklist-block-3">
-            <SiteHeader />
             <div className="d-flex">
                 <div className="portrait d-flex justify-content-center align-items-center">
                     <div className="portrait-container">

@@ -4,12 +4,10 @@ import { Link } from 'react-router-dom';
 import './css/desktop.css';
 
 import '../../css/style.css';
-import SiteHeader from '../../../../../global/header/site-header';
 
 const QuestionBlockFive = () => {
     return (
         <div className="checklist checklist-block-5">
-            <SiteHeader />
             <div className="layout-positioner">
                 <form className="px-4 py-3">
 

@@ -1,10 +1,13 @@
-import allRecommendations from '../recommendations-page/data/all-recommendations';
 import $ from 'jquery';
 
-let recommendations = [];
+import allRecommendations from '../recommendations-page/data/all-recommendations';
 
-const checkAnswers = () => {
-    const _addRecommendation = (n) => recommendations.push(allRecommendations[n]);
+let recommendations: string [] = [];
+
+function checkAnswers(): string [] {
+    function _addRecommendation (recNumber: number) {
+        recommendations.push(allRecommendations[recNumber]);
+    }
 
     if ($('#question-5__answer-1').is(':checked')) _addRecommendation(0);
     if ($('#question-6__answer-2').is(':checked')) _addRecommendation(1);
@@ -21,6 +24,8 @@ const checkAnswers = () => {
     if ($('#question-14__answer-2').is(':checked')) _addRecommendation(9);
     if ($('#question-15__answer-2').is(':checked')) _addRecommendation(10);
     if ($('#question-16__answer-2').is(':checked')) _addRecommendation(11);
-};
+
+    return recommendations;
+}
 
 export { checkAnswers, recommendations };

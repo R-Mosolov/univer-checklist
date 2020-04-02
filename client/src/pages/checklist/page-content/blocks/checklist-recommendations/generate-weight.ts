@@ -1,9 +1,11 @@
 import $ from 'jquery';
 
-let checklistWeight = 0;
+let checklistWeight: number = 0;
 
-const generateWeight = () => {
-    const addWeight = () => checklistWeight += 1.5;
+function generateWeight(): number {
+    function addWeight(): number {
+        return checklistWeight += 1.5;
+    }
 
     if ($('#question-5__answer-2').is(':checked')) addWeight();
     if ($('#question-6__answer-1').is(':checked')) addWeight();
@@ -22,6 +24,6 @@ const generateWeight = () => {
     if ($('#question-16__answer-1').is(':checked')) addWeight();
 
     return checklistWeight;
-};
+}
 
 export default generateWeight;

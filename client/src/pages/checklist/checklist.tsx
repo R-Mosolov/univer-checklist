@@ -1,5 +1,6 @@
 import React from 'react';
-import PageContent from './page-content/page-content';
+
+import PageContent from './page-content/blocks/question-block-1/question-block-1';
 
 class CheckList extends React.Component {
     render() {

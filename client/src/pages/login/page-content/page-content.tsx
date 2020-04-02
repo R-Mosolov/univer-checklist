@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import './css/desktop.css';
 import './css/tablet-and-mobile.css';
 
-import { saveInLocalStorage } from './js/save-in-local-storage';
+// import { saveInLocalStorage } from './js/save-in-local-storage';
 
 const PageContent = () => {
     return (
@@ -20,9 +20,9 @@ const PageContent = () => {
                                 className="login__email form-control email"
                                 id="email"
                                 placeholder="email@example.com"
-                                minLength="9"
-                                maxLength="50"
-                                onChange={ saveInLocalStorage }
+                                minLength={9}
+                                maxLength={50}
+                                // onChange={ saveInLocalStorage }
                                 required
                             />
                         </div>
@@ -33,8 +33,8 @@ const PageContent = () => {
                                 className="form-control password"
                                 id="password"
                                 placeholder="Введите пароль"
-                                minLength="6"
-                                maxLength="50"
+                                minLength={6}
+                                maxLength={50}
                                 required
                             />
                         </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './css/style.css';
-import SiteHeader from '../../../../../../global/header/site-header';
 
 import generateWeight from '../generate-weight';
 import { generateRecommendations } from '../generate-recommendations/generate-recommendations';
@@ -11,7 +10,6 @@ import { createRecommendationsFile } from '../create-recommendations-file';
 const RecommendationsPage = () => {
     return (
         <div className="recommendation-page">
-            <SiteHeader/>
             <div className="layout-positioner">
                 <div className="recommendation-container p-5 rounded shadow">
                     <h2 className="title text-center mb-4">Количество баллов</h2>

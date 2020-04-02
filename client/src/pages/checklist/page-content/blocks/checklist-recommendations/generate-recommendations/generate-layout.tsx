@@ -1,11 +1,12 @@
-import { recommendations } from './check-answers';
 import React from 'react';
+
+import { recommendations } from './check-answers';
 
 const generateRecommendationLayout = () => {
     let _layout = [];
 
     const isNeededTitle = () => {
-        if(recommendations.length > 0) {
+        if (recommendations.length > 0) {
             return <h2 className="recommendations-title text-center mb-4">Список рекомендаций</h2>;
         }
     };
@@ -14,7 +15,7 @@ const generateRecommendationLayout = () => {
         _layout.push(<li>{recommendations[i]}</li>);
     }
 
-    return(
+    return (
         <div>
             {isNeededTitle()}
             {_layout}
