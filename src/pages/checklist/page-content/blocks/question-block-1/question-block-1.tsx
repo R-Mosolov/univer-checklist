@@ -21,7 +21,7 @@ const QuestionBlockOne = () => {
                         </div>
                         <h3 className="portrait-name mt-3 text-center">Михаил Васильевич <br className="mobile-break"/>Ломоносов</h3>
                         <p className="portrait-description text-center">
-                            Основатель первого <br className="mobile-break"/>московского Университета
+                            Основатель первого <br className="mobile-break"/>Московского университета
                         </p>
                         <div className="wrapper"/>
                     </div>

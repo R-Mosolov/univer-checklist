@@ -1,5 +1,5 @@
 # Presentation of SPA
-**"University Checklist"** is the SPA to check quality of your final, qualifying, 
+**«University Checklist»** is the SPA to check quality of your final, qualifying, 
 university work. Technological stack: HTML, CSS, TypeScript (React.js), Bootstrap, 
 jQuery, Grunt.
 
@@ -26,7 +26,6 @@ jQuery, Grunt.
 ### 1.5. Checklist (Questionnaire)
 ![File:Checklist (Questionnaire)](./public/readme-img/checklist-questionnaire.png "Checklist (Questionnaire)")
 <br/><br/>
-
 
 ## 2. App's Functionality
 
