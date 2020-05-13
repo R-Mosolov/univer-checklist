@@ -1,18 +1,18 @@
 .login {
-    height: calc(100vh - 55px);
+  height: calc(100vh - 55px);
 }
 
 .login .container__position {
-    height: 80vh;
+  height: 80vh;
 }
 
 .login .layout-positioner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 .login .login__button {
-    color: white;
-    background-color: goldenrod;
+  color: white;
+  background-color: goldenrod;
 }

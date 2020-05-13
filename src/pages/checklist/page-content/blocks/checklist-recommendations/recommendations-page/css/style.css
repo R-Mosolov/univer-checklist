@@ -1,10 +1,10 @@
 .recommendation-page .layout-positioner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 55px);
 }
 
 .recommendation-page .recommendation-container {
-    max-width: 768px;
+  max-width: 768px;
 }

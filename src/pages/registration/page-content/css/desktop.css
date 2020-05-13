@@ -1,40 +1,40 @@
 .registration .page-background {
-    background-image: url("../img/pen.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: auto 60vw;
+  background-image: url("../img/pen.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 60vw;
 }
 
 .registration .banner {
-    height: 420px;
-    width: 100vw;
-    object-fit: cover;
-    background: url("../img/library-path.jpg") center center no-repeat;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  height: 420px;
+  width: 100vw;
+  object-fit: cover;
+  background: url("../img/library-path.jpg") center center no-repeat;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .registration .layout-positioner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 .registration h1 {
-    font-size: 72px;
-    color: white;
-    text-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+  font-size: 72px;
+  color: white;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
 }
 
 .registration .dropdown-item {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .registration .btn {
-    font-weight: bold;
-    color: white;
-    background-color: goldenrod;
+  font-weight: bold;
+  color: white;
+  background-color: goldenrod;
 }
 
 .registration .btn:hover {
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }

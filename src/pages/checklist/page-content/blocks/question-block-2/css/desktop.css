@@ -1,33 +1,32 @@
 .checklist-block-2 {
-    height: 100%;
+  height: 100%;
 }
 
 .checklist-block-2 .form-container {
-    width: 550px;
+  width: 550px;
 }
 
 .checklist-block-2 .portrait {
-    width: 50vw;
-    height: calc(100vh - 55px);
+  width: 50vw;
+  height: calc(100vh - 55px);
 }
 
 .checklist-block-2 img {
-    height: 450px;
-    width: auto;
+  height: 450px;
+  width: auto;
 }
 
 .checklist-block-2 h3 {
-    font-size: 28px;
-    color: rgba(0, 0, 0, 0.66);
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.66);
 }
 
 .checklist-block-2 .mobile-break {
-    display: none;
+  display: none;
 }
 
-
 @media (max-height: 826px) {
-    .checklist-block-2 {
-        height: 100%;
-    }
+  .checklist-block-2 {
+    height: 100%;
+  }
 }

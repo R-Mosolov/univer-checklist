@@ -11,31 +11,31 @@ button,
 .btn,
 input,
 label {
-    font-family: 'Forum', cursive, sans-serif;
+  font-family: "Forum", cursive, sans-serif;
 }
 
 body {
-    background-color: floralwhite;
+  background-color: floralwhite;
 }
 
 .btn {
-    color: white;
-    background-color: goldenrod;
+  color: white;
+  background-color: goldenrod;
 }
 
 .btn:hover {
-    text-decoration: underline;
-    color: white;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
+  color: white;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }
 
 .night-mode {
-    color: white;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .night-mode:hover {
-    color: white;
-    background-color: rgba(0, 0, 0, 1);
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
 }

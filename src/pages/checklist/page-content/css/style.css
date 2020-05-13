@@ -1,44 +1,44 @@
 .checklist .layout-positioner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 .checklist .margin {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* Animation */
 .wrapper {
-    position: absolute;
-    display: flex;
-    margin-top: -180px;
-    margin-left: 185px;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 1px;
-    z-index: -1;
+  position: absolute;
+  display: flex;
+  margin-top: -180px;
+  margin-left: 185px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1px;
+  z-index: -1;
 }
 
 .el {
-    position: absolute;
-    opacity: 1;
-    width: 2px;
-    height: 15vh;
-    margin-top: -23vh;
-    transform-origin: 50% 100%;
-    background: white;
-    z-index: 0;
+  position: absolute;
+  opacity: 1;
+  width: 2px;
+  height: 15vh;
+  margin-top: -23vh;
+  transform-origin: 50% 100%;
+  background: white;
+  z-index: 0;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .checklist .layout-positioner {
-        padding: 0 1.5%;
-        width: auto;
-    }
+  .checklist .layout-positioner {
+    padding: 0 1.5%;
+    width: auto;
+  }
 
-    .checklist h1 {
-        font-size: 2em;
-        text-align: left;
-    }
+  .checklist h1 {
+    font-size: 2em;
+    text-align: left;
+  }
 }

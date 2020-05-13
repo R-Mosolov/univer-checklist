@@ -1,16 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { checkAnswers } from './check-answers';
-import { generateRecommendationLayout } from './generate-layout';
+import { checkAnswers } from "./check-answers";
+import { generateRecommendationLayout } from "./generate-layout";
 
 const generateRecommendations = () => {
-    checkAnswers();
+  checkAnswers();
 
-    return (
-        <ol>
-            {generateRecommendationLayout()}
-        </ol>
-    );
+  return <ol>{generateRecommendationLayout()}</ol>;
 };
 
 export { generateRecommendations };

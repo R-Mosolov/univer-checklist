@@ -1,5 +1,5 @@
-import $ from 'jquery';
+import $ from "jquery";
 
-$('input[type="radio"]').on('click', function () {
-    return alert('Hello');
+$('input[type="radio"]').on("click", function () {
+  return alert("Hello");
 });

@@ -1,20 +1,20 @@
 @media (min-width: 320px) and (max-width: 768px) {
-    .about-service-base .layout-positioner {
-        min-width: 100%;
-        padding: 0 1.5%;
-        width: auto;
-    }
+  .about-service-base .layout-positioner {
+    min-width: 100%;
+    padding: 0 1.5%;
+    width: auto;
+  }
 
-    .about-service-base .flex-container {
-        display: block;
-    }
+  .about-service-base .flex-container {
+    display: block;
+  }
 
-    .about-service-base h1 {
-        font-size: 1.8em;
-    }
+  .about-service-base h1 {
+    font-size: 1.8em;
+  }
 
-    .about-service-base .banner__books {
-        height: 250px;
-        width: 250px;
-    }
+  .about-service-base .banner__books {
+    height: 250px;
+    width: 250px;
+  }
 }

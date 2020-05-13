@@ -1,9 +1,9 @@
-import secondValidateLastName from './last-name/index-2';
+import secondValidateLastName from "./last-name/index-2";
 
 const validateRegistrationForm = (event) => {
-    event.preventDefault();
+  event.preventDefault();
 
-    secondValidateLastName();
+  secondValidateLastName();
 };
 
 export default validateRegistrationForm;
