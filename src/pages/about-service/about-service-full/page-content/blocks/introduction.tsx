@@ -1,5 +1,5 @@
-import React from "react";
-import "../css/desktop.css";
+import React from 'react';
+import '../css/desktop.css';
 
 const Introduction = () => {
   return (

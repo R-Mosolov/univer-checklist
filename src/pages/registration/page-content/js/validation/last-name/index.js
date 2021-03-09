@@ -1,18 +1,18 @@
 function validateLastName() {
-  const lastNameContainer = document.querySelector(".last-name");
-  const lastNameValue = document.getElementById("last-name").value;
+  const lastNameContainer = document.querySelector('.last-name');
+  const lastNameValue = document.getElementById('last-name').value;
 
-  const helpField = document.createElement("div");
-  helpField.className = "help-field alert bg-danger text-light";
+  const helpField = document.createElement('div');
+  helpField.className = 'help-field alert bg-danger text-light';
 
   // Checking repeated helpField
   if (lastNameContainer.childElementCount < 3) {
     if (lastNameValue.length < 2 || lastNameValue.length > 30) {
       if (lastNameContainer.childElementCount > 2) {
-        document.querySelector(".last-name .help-field").className = "d-none";
+        document.querySelector('.last-name .help-field').className = 'd-none';
       }
 
-      helpField.innerHTML = "Фамилия должна содержать от 2 до 30 букв.";
+      helpField.innerHTML = 'Фамилия должна содержать от 2 до 30 букв.';
       lastNameContainer.appendChild(helpField);
     }
   }
@@ -21,7 +21,7 @@ function validateLastName() {
     lastNameContainer.childElementCount > 3 &&
     (lastNameValue.length < 2 || lastNameValue.length > 30)
   ) {
-    document.querySelector(".last-name .help-field").className = "d-none";
+    document.querySelector('.last-name .help-field').className = 'd-none';
   }
 
   // Checking symbols count
@@ -40,10 +40,10 @@ function validateLastName() {
     }
 
     if (isNotLetter) {
-      helpField.innerHTML = "Фамилия не должна содержать цифр и символов.";
+      helpField.innerHTML = 'Фамилия не должна содержать цифр и символов.';
       lastNameContainer.appendChild(helpField);
     } else {
-      document.querySelector(".last-name .help-field").className = "d-none";
+      document.querySelector('.last-name .help-field').className = 'd-none';
     }
   }
 }

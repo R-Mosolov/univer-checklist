@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import "./css/desktop.css";
-import "./css/tablet.css";
-import "./css/mobile.css";
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
 
-import { ReactComponent as Pen } from "../../main/page-content/img/pen.svg";
+import { ReactComponent as Pen } from '../../main/page-content/img/pen.svg';
 
-import validateRegistrationForm from "./js/validation";
+import validateRegistrationForm from './js/validation';
 
 const PageContent = () => {
   return (

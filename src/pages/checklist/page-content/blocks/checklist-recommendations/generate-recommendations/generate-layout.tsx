@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { recommendations } from "./check-answers";
+import { recommendations } from './check-answers';
 
 const generateRecommendationLayout = () => {
   let _layout = [];
@@ -13,6 +13,7 @@ const generateRecommendationLayout = () => {
         </h2>
       );
     }
+    return;
   };
 
   for (let i = 0; i < recommendations.length; i++) {

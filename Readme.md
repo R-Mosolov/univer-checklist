@@ -6,7 +6,7 @@ jQuery, Grunt.
 ## Instruction to run the SPA
 1. Download/clone the repository
 2. Go to root directory
-3. Insert following command to terminal: `npm start`
+3. Insert following command to terminal: `npm run start`
 4. Open browser on link: http://localhost:3000/
 
 ## 1. Desktop Interface

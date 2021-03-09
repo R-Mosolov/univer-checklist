@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import PageContent from "./page-content/page-content";
+import PageContent from './page-content/page-content';
 
 class Main extends React.Component {
   render() {

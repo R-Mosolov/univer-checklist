@@ -1,19 +1,19 @@
 function definePageExistence() {
   const allPagesPaths = [
-    "/",
-    "/registration",
-    "/login",
-    "/about-service-base",
-    "/about-service-full",
-    "/profile",
-    "/handler-page",
-    "/checklist-block-1",
-    "/checklist-block-2",
-    "/checklist-block-3",
-    "/checklist-block-4",
-    "/checklist-block-5",
-    "/recommendation-page/recommendations-page",
-    "/404-not-found",
+    '/',
+    '/registration',
+    '/login',
+    '/about-service-base',
+    '/about-service-full',
+    '/profile',
+    '/handler-page',
+    '/checklist-block-1',
+    '/checklist-block-2',
+    '/checklist-block-3',
+    '/checklist-block-4',
+    '/checklist-block-5',
+    '/recommendation-page/recommendations-page',
+    '/404-not-found',
   ];
   const currentPage = document.location.pathname;
   let isNonExistentPage = true;
@@ -25,7 +25,7 @@ function definePageExistence() {
   }
 
   if (isNonExistentPage) {
-    document.location.pathname = "/404-not-found";
+    document.location.pathname = '/404-not-found';
   }
 }
 

@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/desktop.css";
-import "./css/tablet.css";
-import "./css/mobile.css";
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
 
-import "../../css/style.css";
-import Mendeleev from "./img/Mendeleev.png";
-import generateWeight from "../checklist-recommendations/generate-weight";
-import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
+import '../../css/style.css';
+import Mendeleev from './img/Mendeleev.png';
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 const QuestionBlockThree = () => {
   return (
@@ -28,7 +28,7 @@ const QuestionBlockThree = () => {
               Менделеев
             </h3>
             <p className="portrait-description text-center">
-              Создатель таблицы химических <br className="mobile-break" />{" "}
+              Создатель таблицы химических <br className="mobile-break" />{' '}
               элементов
             </p>
             <div className="wrapper" />

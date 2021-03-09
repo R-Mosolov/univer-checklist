@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { checkAnswers } from "./check-answers";
-import { generateRecommendationLayout } from "./generate-layout";
+import { checkAnswers } from './check-answers';
+import { generateRecommendationLayout } from './generate-layout';
 
 const generateRecommendations = () => {
   checkAnswers();

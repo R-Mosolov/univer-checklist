@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import User from "./img/user.svg";
-import Content from "./img/content.svg";
+import User from './img/user.svg';
+import Content from './img/content.svg';
 
 const PageContent = () => {
   return (
@@ -15,7 +15,7 @@ const PageContent = () => {
                 className="m-4"
                 alt="Моя фотография"
                 src={User}
-                style={{ width: 200 + "px" }}
+                style={{ width: 200 + 'px' }}
               />
             </div>
             <h3 className="text-center">Фамилия Имя Отчество</h3>
@@ -27,14 +27,14 @@ const PageContent = () => {
               <div className="card-group row d-flex justify-content-around">
                 <div
                   className="card-background card col-5 border rounded"
-                  style={{ backgroundColor: "floralwhite" }}
+                  style={{ backgroundColor: 'floralwhite' }}
                 >
                   <div className="d-flex justify-content-center">
                     <img
                       src={Content}
                       className="card-img-top p-3"
                       alt="..."
-                      style={{ width: 250 + "px" }}
+                      style={{ width: 250 + 'px' }}
                     />
                   </div>
                   <div className="card-body">
@@ -51,8 +51,8 @@ const PageContent = () => {
                         className="btn"
                         onClick={() =>
                           alert(
-                            "В настоящее время данная функция " +
-                              "не работает. Вернитесь к ней, пожалуйста, позднее."
+                            'В настоящее время данная функция ' +
+                              'не работает. Вернитесь к ней, пожалуйста, позднее.'
                           )
                         }
                       >
@@ -63,14 +63,14 @@ const PageContent = () => {
                 </div>
                 <div
                   className="card-background card col-5 border rounded"
-                  style={{ backgroundColor: "floralwhite" }}
+                  style={{ backgroundColor: 'floralwhite' }}
                 >
                   <div className="d-flex justify-content-center">
                     <img
                       src={Content}
                       className="card-img-top p-3"
                       alt="..."
-                      style={{ width: 250 + "px" }}
+                      style={{ width: 250 + 'px' }}
                     />
                   </div>
                   <div className="card-body">
@@ -87,8 +87,8 @@ const PageContent = () => {
                         className="btn"
                         onClick={() =>
                           alert(
-                            "В настоящее время данная функция " +
-                              "не работает. Вернитесь к ней, пожалуйста, позднее."
+                            'В настоящее время данная функция ' +
+                              'не работает. Вернитесь к ней, пожалуйста, позднее.'
                           )
                         }
                       >

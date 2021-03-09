@@ -1,7 +1,7 @@
-import React from "react";
-import "../../css/desktop.css";
-import FirstPicture from "./first-picture.jpg";
-import "./first-picture.css";
+import React from 'react';
+import '../../css/desktop.css';
+import FirstPicture from './first-picture.jpg';
+import './first-picture.css';
 
 const Direction = () => {
   return (

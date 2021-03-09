@@ -1,17 +1,17 @@
-import * as React from "react";
-import { Link } from "react-router-dom";
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 
-import "../css/style.css";
-import "./css/desktop.css";
-import "./css/tablet-and-desktop.css";
+import '../css/style.css';
+import './css/desktop.css';
+import './css/tablet-and-desktop.css';
 
-import menuBurger from "./js/menu-burger";
-import { runNightMode } from "../js/night-mode/run-night-mode";
+import menuBurger from './js/menu-burger';
+import { runNightMode } from '../js/night-mode/run-night-mode';
 import {
   zoomOutFonts,
   fontsNormalZoom,
   zoomUpFonts,
-} from "../js/change-fonts-size";
+} from '../js/change-fonts-size';
 
 const SiteHeader = () => {
   return (
