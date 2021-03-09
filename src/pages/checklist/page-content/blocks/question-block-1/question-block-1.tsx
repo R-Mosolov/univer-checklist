@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "../../../../../global/css/style.css";
-import "../../css/style.css";
-import "./css/desktop.css";
-import "./css/tablet.css";
-import "./css/mobile.css";
+import '../../../../../global/css/style.css';
+import '../../css/style.css';
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
 
-import Lomonosov from "./img/Lomonosov.png";
+import Lomonosov from './img/Lomonosov.png';
 
 const QuestionBlockOne = () => {
   return (

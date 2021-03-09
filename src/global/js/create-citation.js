@@ -9,11 +9,11 @@ document.oncopy = () => {
   }
 
   if (
-    lastLetter !== "." &&
+    lastLetter !== '.' &&
     lastLetter &&
-    "..." &&
-    lastLetter !== "?" &&
-    lastLetter !== "!"
+    '...' &&
+    lastLetter !== '?' &&
+    lastLetter !== '!'
   ) {
     selectedText = `${selectedText}...`;
   }

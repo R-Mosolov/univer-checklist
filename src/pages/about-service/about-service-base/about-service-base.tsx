@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import PageContent from "./page-content/page-content";
+import PageContent from './page-content/page-content';
 
 class AboutServiseBase extends React.Component {
   render() {

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./css/desktop.css";
-import "./css/tablet-and-mobile.css";
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
 
-import { ReactComponent as Banner } from "./img/scholarship.svg";
+import { ReactComponent as Banner } from './img/scholarship.svg';
 
 const PageContent = () => {
   return (

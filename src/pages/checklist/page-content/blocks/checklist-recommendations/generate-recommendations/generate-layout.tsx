@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { recommendations } from "./check-answers";
+import { recommendations } from './check-answers';
 
 const generateRecommendationLayout = () => {
   let _layout = [];

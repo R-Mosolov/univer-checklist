@@ -1,5 +1,5 @@
 .registration .page-background {
-  background-image: url("../img/pen.svg");
+  background-image: url('../img/pen.svg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto 60vw;
@@ -9,7 +9,7 @@
   height: 420px;
   width: 100vw;
   object-fit: cover;
-  background: url("../img/library-path.jpg") center center no-repeat;
+  background: url('../img/library-path.jpg') center center no-repeat;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 

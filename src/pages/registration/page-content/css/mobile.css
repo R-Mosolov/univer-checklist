@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 414px) {
   .registration .banner {
-    background-image: url("../img/library-path-mobile.jpg");
+    background-image: url('../img/library-path-mobile.jpg');
   }
 }

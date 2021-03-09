@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import SiteContent from "./site-content/site-content";
+import SiteContent from './site-content/site-content';
 
 class HandlerPage extends React.Component {
   render() {

@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/desktop.css";
-import "./css/tablet.css";
-import "./css/mobile.css";
+import './css/desktop.css';
+import './css/tablet.css';
+import './css/mobile.css';
 
-import Ciolkovskii from "./img/Ciolkovskii.png";
-import generateWeight from "../checklist-recommendations/generate-weight";
-import { generateRecommendations } from "../checklist-recommendations/generate-recommendations/generate-recommendations";
+import Ciolkovskii from './img/Ciolkovskii.png';
+import generateWeight from '../checklist-recommendations/generate-weight';
+import { generateRecommendations } from '../checklist-recommendations/generate-recommendations/generate-recommendations';
 
 export default class QuestionBlockTwo extends Component {
   render() {

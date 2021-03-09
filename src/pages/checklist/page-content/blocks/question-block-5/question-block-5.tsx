@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/desktop.css";
+import './css/desktop.css';
 
-import "../../css/style.css";
+import '../../css/style.css';
 
 const QuestionBlockFive = () => {
   return (

@@ -1,5 +1,5 @@
-import React from "react";
-import "../css/desktop.css";
+import React from 'react';
+import '../css/desktop.css';
 
 const FootnoteLiterature = () => {
   return (
@@ -42,7 +42,7 @@ const FootnoteLiterature = () => {
         URL:
         <a href="https://www.hse.ru/edu/vkr/" rel="noopener noreferrer">
           https://www.hse.ru/edu/vkr/
-        </a>{" "}
+        </a>{' '}
         (дата обращения: 29.05.2019).
       </p>
       <p className="mt-3 mb-0 text-justify">
@@ -54,11 +54,13 @@ const FootnoteLiterature = () => {
       </p>
       <p className="last-paragraph mt-3 pb-5 text-justify">
         5. GfK. Проникновение Интернета в России (пресс-релиз) [Электронный
-        ресурс] // URL:{" "}
+        ресурс] // URL:{' '}
         <a
-          href={"https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/"
-            + "Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_"
-            + "Penetration_in_Russia_2017-2018.pdf"}
+          href={
+            'https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/' +
+            'Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_' +
+            'Penetration_in_Russia_2017-2018.pdf'
+          }
           rel="noopener noreferrer"
         >
           https://www.gfk.com/fileadmin/user_upload/dyna_
@@ -67,7 +69,7 @@ const FootnoteLiterature = () => {
           /GfK_Rus_Press_Release_Internet_Penetration
           <br />
           _in_Russia_2017-2018.pdf
-        </a>{" "}
+        </a>{' '}
         (дата обращения: 30.05.2019).
       </p>
     </div>

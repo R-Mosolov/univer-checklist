@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./css/desktop.css";
-import "./css/tablet-and-mobile.css";
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
 
-import { ReactComponent as Banner } from "./img/development.svg";
+import { ReactComponent as Banner } from './img/development.svg';
 
 const PageContent = () => {
   return (
@@ -13,7 +13,7 @@ const PageContent = () => {
           <div className="banner mt-5">
             <div className="banner__container">
               <div className="banner__development">
-                <Banner style={{ width: 300 + "px" }} />
+                <Banner style={{ width: 300 + 'px' }} />
               </div>
             </div>
           </div>

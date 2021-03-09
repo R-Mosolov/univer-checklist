@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/desktop.css";
-import "./css/tablet-and-mobile.css";
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
 
 // import { saveInLocalStorage } from './js/save-in-local-storage';
 
@@ -61,8 +61,8 @@ const PageContent = () => {
               href="/"
               onClick={() =>
                 alert(
-                  "В настоящее время данная функция " +
-                    "не работает. Вернитесь к ней, пожалуйста, позднее."
+                  'В настоящее время данная функция ' +
+                    'не работает. Вернитесь к ней, пожалуйста, позднее.'
                 )
               }
             >

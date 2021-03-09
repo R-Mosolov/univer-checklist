@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/desktop.css";
-import "./css/tablet-and-mobile.css";
+import './css/desktop.css';
+import './css/tablet-and-mobile.css';
 
-import { ReactComponent as Banner } from "./img/404.svg";
+import { ReactComponent as Banner } from './img/404.svg';
 
 const SiteContent = () => {
   return (
@@ -14,7 +14,7 @@ const SiteContent = () => {
           <div className="banner mt-5">
             <div className="banner__container">
               <div className="banner__not-found">
-                <Banner style={{ width: 300 + "px" }} />
+                <Banner style={{ width: 300 + 'px' }} />
               </div>
             </div>
           </div>

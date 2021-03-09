@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./css/style.css";
+import './css/style.css';
 
-import generateWeight from "../generate-weight";
-import { generateRecommendations } from "../generate-recommendations/generate-recommendations";
-import { createRecommendationsFile } from "../create-recommendations-file";
+import generateWeight from '../generate-weight';
+import { generateRecommendations } from '../generate-recommendations/generate-recommendations';
+import { createRecommendationsFile } from '../create-recommendations-file';
 
 const RecommendationsPage = () => {
   return (
