@@ -56,7 +56,9 @@ const FootnoteLiterature = () => {
         5. GfK. Проникновение Интернета в России (пресс-релиз) [Электронный
         ресурс] // URL:{" "}
         <a
-          href="https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_Penetration_in_Russia_2017-2018.pdf"
+          href={"https://www.gfk.com/fileadmin/user_upload/dyna_content/RU/"
+            + "Documents/Press_Releases/2018/GfK_Rus_Press_Release_Internet_"
+            + "Penetration_in_Russia_2017-2018.pdf"}
           rel="noopener noreferrer"
         >
           https://www.gfk.com/fileadmin/user_upload/dyna_

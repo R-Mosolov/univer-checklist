@@ -30,10 +30,11 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "node_modules/.bin/react-scripts start",
-    "build": "node_modules/.bin/react-scripts build",
-    "test": "node_modules/.bin/react-scripts test",
-    "eject": "node_modules/.bin/react-scripts eject"
+    "start": "clear && npm run build && react-scripts start",
+    "build": "tsc",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "pretty": "clear && cd src && npx prettier --write ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router": "^5.1.12",
     "grunt": "^1.1.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0"

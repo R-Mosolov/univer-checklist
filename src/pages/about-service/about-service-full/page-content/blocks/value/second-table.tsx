@@ -1,16 +1,16 @@
 import React from "react";
 import "../../css/desktop.css";
 
-const FirstTable = () => {
+const SecondTable = () => {
   return (
     <div className="first-table">
       <div className="layout-positioner">
         <p className="table__number font-italic text-right mt-0 mb-0">
-          Таблица 1
+          Таблица 2
         </p>
         <br />
         <p className="table__title font-weight-bold text-center mt-0">
-          Структура смысловых блоков Программы
+          Пример кодификации Программы
         </p>
         <table className="table">
           <thead>
@@ -28,7 +28,7 @@ const FirstTable = () => {
           </thead>
           <tbody>
             <tr>
-              <td rowSpan="4">Уточняющие вопросы</td>
+              <td rowSpan={4}>Уточняющие вопросы</td>
               <td>1.1</td>
               <td>
                 По какой форме обучения Вы учитесь сейчас? На каком курсе Вы
@@ -48,7 +48,7 @@ const FirstTable = () => {
               <td>На какой месяц назначена защита работы?</td>
             </tr>
             <tr>
-              <td rowSpan="3">Общее оформление работы</td>
+              <td rowSpan={3}>Общее оформление работы</td>
               <td>2.1</td>
               <td>Каждая страница работы вложена в отдельный файл?</td>
             </tr>
@@ -64,7 +64,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Титульный лист</td>
+              <td rowSpan={3}>Титульный лист</td>
               <td>3.1</td>
               <td>
                 На титульном листе стоят обе подписи (Ваша и научного
@@ -80,7 +80,7 @@ const FirstTable = () => {
               <td>В «шапке» написан номер учебного направления?</td>
             </tr>
             <tr>
-              <td rowSpan="3">Название работы</td>
+              <td rowSpan={3}>Название работы</td>
               <td>4.1</td>
               <td>Название работы содержит понятие «особенности»?</td>
             </tr>
@@ -99,7 +99,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Оглавление</td>
+              <td rowSpan={3}>Оглавление</td>
               <td>5.1</td>
               <td>
                 Страницы начала глав и параграфов соответствуют тем, которые
@@ -121,7 +121,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Введение</td>
+              <td rowSpan={3}>Введение</td>
               <td>6.1</td>
               <td>
                 Введение содержит следующие смысловые блоки: актуальность
@@ -141,7 +141,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Глава 1</td>
+              <td rowSpan={3}>Глава 1</td>
               <td>7.1</td>
               <td>
                 В 1-й главе (теоретической части работы) отражены идеи основных
@@ -160,7 +160,7 @@ const FirstTable = () => {
               <td>В конце главы сделаны выводы?</td>
             </tr>
             <tr>
-              <td rowSpan="3">Глава 2</td>
+              <td rowSpan={3}>Глава 2</td>
               <td>8.1</td>
               <td>
                 Во 2-й главе (эмпирической части работы) дана интерпретация
@@ -179,7 +179,7 @@ const FirstTable = () => {
               <td>В конце главы сделаны выводы?</td>
             </tr>
             <tr>
-              <td rowSpan="3">Заключение</td>
+              <td rowSpan={3}>Заключение</td>
               <td>9.1</td>
               <td>Заключение содержит минимум 3 стр. текста?</td>
             </tr>
@@ -195,7 +195,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Список литературы</td>
+              <td rowSpan={3}>Список литературы</td>
               <td>10.1</td>
               <td>Список литературы отделен от списка источников?</td>
             </tr>
@@ -214,7 +214,7 @@ const FirstTable = () => {
               </td>
             </tr>
             <tr>
-              <td rowSpan="3">Приложение</td>
+              <td rowSpan={3}>Приложение</td>
               <td>11.1</td>
               <td>
                 Перед приложением дано краткое описание прилагаемых файлов
@@ -242,4 +242,4 @@ const FirstTable = () => {
   );
 };
 
-export default FirstTable;
+export default SecondTable;
